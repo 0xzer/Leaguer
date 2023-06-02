@@ -1,0 +1,14 @@
+{
+  "name" : "0xzero",
+  "email" : "0xzero@gmail.com",
+  "url" : "https://github.com/0xzero",
+  "author": "0xzero https://github.com/0xzero",
+  "dependencies": {
+    "node-fetch": "^2.6.11",
+    "tiny-typed-emitter": "^2.1.0",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5"
+  }
+}

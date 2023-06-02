@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "module": "Node16",
+        "esModuleInterop": true,
+        "target": "ES2021"
+    }
+}
