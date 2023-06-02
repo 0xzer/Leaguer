@@ -1,0 +1,1385 @@
+{
+    "/AsyncDelete": {
+        "/AsyncDelete": "Async"
+    },
+    "/AsyncResult": {
+        "/AsyncResult": "AsyncResult"
+    },
+    "/AsyncStatus": {
+        "/AsyncStatus": "AsyncStatus"
+    },
+    "/Cancel": {
+        "/Cancel": "Cancel"
+    },
+    "/Exit": {
+        "/Exit": "Exit"
+    },
+    "/Help": {
+        "/Help": "Help"
+    },
+    "/LoggingGetEntries": {
+        "/LoggingGetEntries": "LoggingEntries"
+    },
+    "/LoggingMetrics": {
+        "/LoggingMetrics": "LoggingMetrics"
+    },
+    "/LoggingMetricsMetadata": {
+        "/LoggingMetricsMetadata": "LoggingMetricsMetadata"
+    },
+    "/LoggingStart": {
+        "/LoggingStart": "LoggingStart"
+    },
+    "/LoggingStop": {
+        "/LoggingStop": "LoggingStop"
+    },
+    "/MemoryPools": {
+        "/MemoryPools": "MemoryPools"
+    },
+    "/Subscribe": {
+        "/Subscribe": "Subscribe"
+    },
+    "/Unsubscribe": {
+        "/Unsubscribe": "Unsubscribe"
+    },
+    "/WebSocketFormat": {
+        "/WebSocketFormat": "WebSocketFormat"
+    },
+    "/anti-addiction/v1": {
+        "/anti-addiction/v1/policies/{policyType}/anti-addiction-state": "AntiAddictionV1PoliciesByPolicyTypeAntiAddictionState"
+    },
+    "/async/v1": {
+        "/async/v1/result/{asyncToken}": "HttpAsyncResult",
+        "/async/v1/status/{asyncToken}": "HttpAsync"
+    },
+    "/client-config/v1": {
+        "/client-config/v1/config": "ClientConfigV1Config",
+        "/client-config/v1/config/{name}": "ClientConfigV1ConfigByName",
+        "/client-config/v1/entitlements-token": "ClientConfigV1EntitlementsToken",
+        "/client-config/v1/refresh-config-status": "ClientConfigV1RefreshConfigStatus",
+        "/client-config/v1/status/{type}": "ClientConfigV1StatusByType"
+    },
+    "/client-config/v2": {
+        "/client-config/v2/config/{name}": "ClientConfigV2ConfigByName",
+        "/client-config/v2/namespace-changes": "ClientConfigV2NamespaceChanges",
+        "/client-config/v2/namespace/{namespace}": "ClientConfigV2NamespaceByNamespace",
+        "/client-config/v2/namespace/{namespace}/player": "ClientConfigV2NamespaceByNamespacePlayer",
+        "/client-config/v2/namespace/{namespace}/public": "ClientConfigV2NamespaceByNamespacePublic"
+    },
+    "/cookie-jar/v1": {
+        "/cookie-jar/v1/cookies": "CookieJarV1Cookies"
+    },
+    "/crash-reporting/v1": {
+        "/crash-reporting/v1/crash-status": "CrashReportingV1CrashStatus"
+    },
+    "/data-store/v1": {
+        "/data-store/v1/install-dir": "DataStoreV1InstallDir",
+        "/data-store/v1/install-settings/{path}": "DataStoreV1InstallSettingsByPath",
+        "/data-store/v1/system-settings/{path}": "DataStoreV1SystemSettingsByPath"
+    },
+    "/entitlements/v1": {
+        "/entitlements/v1/token": "EntitlementsV1Token"
+    },
+    "/lol-account-verification/v1": {
+        "/lol-account-verification/v1/authenticate": "LolAccountVerificationV1Authenticate",
+        "/lol-account-verification/v1/device": "LolAccountVerificationV1Device",
+        "/lol-account-verification/v1/invalidate": "LolAccountVerificationV1Invalidate",
+        "/lol-account-verification/v1/is-verified": "LolAccountVerificationV1IsVerified",
+        "/lol-account-verification/v1/send-token": "LolAccountVerificationV1SendToken",
+        "/lol-account-verification/v1/verify": "LolAccountVerificationV1Verify"
+    },
+    "/lol-active-boosts/v1": {
+        "/lol-active-boosts/v1/active-boosts": "LolActiveBoostsV1ActiveBoosts"
+    },
+    "/lol-anti-addiction/v1": {
+        "/lol-anti-addiction/v1/anti-addiction-token": "LolAntiAddictionV1AntiAddictionToken"
+    },
+    "/lol-banners/v1": {
+        "/lol-banners/v1/current-summoner/flags": "LolBannersV1CurrentSummonerFlags",
+        "/lol-banners/v1/current-summoner/flags/equipped": "LolBannersV1CurrentSummonerFlagsEquipped",
+        "/lol-banners/v1/current-summoner/frames/equipped": "LolBannersV1CurrentSummonerFramesEquipped",
+        "/lol-banners/v1/players/{puuid}/flags/equipped": "LolBannersV1PlayersByPuuidFlagsEquipped"
+    },
+    "/lol-career-stats/v1": {
+        "/lol-career-stats/v1/champion-averages/season/{season}/{championId}/{position}/{tier}/{queue}": "LolCareerStatsV1ChampionAveragesSeasonBySeasonByChampionIdByPositionByTierByQueue",
+        "/lol-career-stats/v1/champion-averages/{championId}/{position}/{tier}/{queue}": "LolCareerStatsV1ChampionAveragesByChampionIdByPositionByTierByQueue",
+        "/lol-career-stats/v1/champion-experts/season/{season}/{championId}/{position}": "LolCareerStatsV1ChampionExpertsSeasonBySeasonByChampionIdByPosition",
+        "/lol-career-stats/v1/champion-experts/{championId}/{position}": "LolCareerStatsV1ChampionExpertsByChampionIdByPosition",
+        "/lol-career-stats/v1/champion-stats-percentiles": "LolCareerStatsV1ChampionStatsPercentiles",
+        "/lol-career-stats/v1/position-averages/season/{season}/{position}/{tier}/{queue}": "LolCareerStatsV1PositionAveragesSeasonBySeasonByPositionByTierByQueue",
+        "/lol-career-stats/v1/position-averages/{position}/{tier}/{queue}": "LolCareerStatsV1PositionAveragesByPositionByTierByQueue",
+        "/lol-career-stats/v1/position-experts/season/{season}/{position}": "LolCareerStatsV1PositionExpertsSeasonBySeasonByPosition",
+        "/lol-career-stats/v1/position-experts/{position}": "LolCareerStatsV1PositionExpertsByPosition",
+        "/lol-career-stats/v1/position-stats-percentiles": "LolCareerStatsV1PositionStatsPercentiles",
+        "/lol-career-stats/v1/summoner-games/{puuid}": "LolCareerStatsV1SummonerGamesByPuuid",
+        "/lol-career-stats/v1/summoner-games/{puuid}/season/{season}": "LolCareerStatsV1SummonerGamesByPuuidSeasonBySeason",
+        "/lol-career-stats/v1/summoner-stats/{puuid}/{season}/{queue}/{position}": "LolCareerStatsV1SummonerStatsByPuuidBySeasonByQueueByPosition"
+    },
+    "/lol-catalog/v1": {
+        "/lol-catalog/v1/item-details": "LolCatalogV1ItemDetails",
+        "/lol-catalog/v1/items": "LolCatalogV1Items",
+        "/lol-catalog/v1/items/{inventoryType}": "LolCatalogV1ItemsByInventoryType"
+    },
+    "/v1/challenges": {
+        "/v1/challenges/local-player": "LolChallengesV1ChallengesLocalPlayer"
+    },
+    "/lol-event-shop/v1": {
+        "/lol-event-shop/v1/token-balance": "LolEventShopV1EventShopTokenBalance",
+        "/lol-event-shop/v1/navigation-button-data": "LolEventShopV1EventNavigationButtonData",
+        "/lol-event-shop/v1/categories-offers": "LolEventShopV1EventShopCategoriesOffers",
+        "/lol-event-shop/v1/info": "LolEventShopV1EventShopInfo",
+        "/lol-event-shop/v1/reward-track-items": "LolEventShopV1EventShopRewardTrackItems",
+        "/lol-event-shop/v1/reward-track-progress": "LolEventShopV1EventShopRewardTrackProgress",
+        "/lol-event-shop/v1/reward-track-bonus-progress": "LolEventShopV1EventShopRewardTrackBonusProgress",
+        "/lol-event-shop/v1/unclaimed-rewards": "LolEventShopV1EventShopUnclaimedRewards",
+        "/lol-event-shop/v1/token-upsell": "LolEventShopV1EventShopTokenUpsell",
+        "/lol-event-shop/v1/reward-track-bonus-items": "LolEventShopV1RewardTrackBonusItems",
+        "/lol-event-shop/v1/reward-track-xp": "LolEventShopV1RewardTrackXp",
+        "/lol-event-shop/v1/failure-loading-token-shop": "LolEventShopV1FailureLoadingTokenShop",
+        "/lol-event-shop/v1/failure-loading-reward-track": "LolEventShopV1FailureLoadingRewardTrack"
+    },
+    "/lol-challenges/v1": {
+        "/lol-challenges/v1/available-queue-ids": "LolChallengesV1AvailableQueueIds",
+        "/lol-challenges/v1/challenges/{product}/local-player": "LolChallengesV1ChallengesByProductLocalPlayer",
+        "/lol-challenges/v1/level-points": "LolChallengesV1LevelPoints",
+        "/lol-challenges/v1/seasons": "LolChallengesV1Seasons",
+        "/lol-challenges/v1/my-updated-challenges/{gameId}": "LolChallengesV1MyUpdatedChallengesByGameId",
+        "/lol-challenges/v1/processGame/{product}/{gameId}": "LolChallengesV1ProcessGameByProductByGameId",
+        "/lol-challenges/v1/suggested-challenges/local-player": "LolChallengesV1SuggestedChallengesLocalPlayer",
+        "/lol-challenges/v1/summary-player-data/player/{puuid}": "LolChallengesV1SummaryPlayerDataPlayerByPuuid",
+        "/lol-challenges/v1/suggested-challenges/{product}/local-player": "LolChallengesV1SuggestedChallengesByProductLocalPlayer",
+        "/lol-challenges/v1/summary-player-data/{product}/local-player": "LolChallengesV1SummaryPlayerDataByProductLocalPlayer",
+        "/lol-challenges/v1/summary-player-data/{product}/player/{puuid}": "LolChallengesV1SummaryPlayerDataByProductPlayerByPuuid",
+        "/lol-challenges/v1/summary-players-data/{product}/players": "LolChallengesV1SummaryPlayersDataByProductPlayers",
+        "/lol-challenges/v1/titles/local-player": "LolChallengesV1TitlesLocalPlayer",
+        "/lol-challenges/v1/update-player-preferences/{product}": "LolChallengesV1UpdatePlayerPreferencesByProduct",
+        "/lol-challenges/v1/client-state": "LolChallengesV1ClientState",
+        "/lol-challenges/v1/updated-challenge/{gameId}/{puuid}": "LolChallengesV1UpdatedChallengeByGameIdByPuuid"
+    },
+    "/lol-champ-select-legacy/v1": {
+        "/lol-champ-select-legacy/v1/bannable-champion-ids": "LolChampSelectLegacyV1BannableChampionIds",
+        "/lol-champ-select-legacy/v1/battle-training/launch": "LolChampSelectLegacyV1BattleTrainingLaunch",
+        "/lol-champ-select-legacy/v1/current-champion": "LolChampSelectLegacyV1CurrentChampion",
+        "/lol-champ-select-legacy/v1/disabled-champion-ids": "LolChampSelectLegacyV1DisabledChampionIds",
+        "/lol-champ-select-legacy/v1/implementation-active": "LolChampSelectLegacyV1ImplementationActive",
+        "/lol-champ-select-legacy/v1/pickable-champion-ids": "LolChampSelectLegacyV1PickableChampionIds",
+        "/lol-champ-select-legacy/v1/pickable-skin-ids": "LolChampSelectLegacyV1PickableSkinIds",
+        "/lol-champ-select-legacy/v1/session": "LolChampSelectLegacyV1Session",
+        "/lol-champ-select-legacy/v1/session/actions/{id}": "PatchLolChampSelectLegacyV1SessionActionsById",
+        "/lol-champ-select-legacy/v1/session/actions/{id}/complete": "LolChampSelectLegacyV1SessionActionsByIdComplete",
+        "/lol-champ-select-legacy/v1/session/my-selection": "PatchLolChampSelectLegacyV1SessionMySelection",
+        "/lol-champ-select-legacy/v1/session/my-selection/reroll": "LolChampSelectLegacyV1SessionMySelectionReroll",
+        "/lol-champ-select-legacy/v1/session/timer": "LolChampSelectLegacyV1SessionTimer",
+        "/lol-champ-select-legacy/v1/session/trades": "LolChampSelectLegacyV1SessionTrades",
+        "/lol-champ-select-legacy/v1/session/trades/{id}": "LolChampSelectLegacyV1SessionTradesById",
+        "/lol-champ-select-legacy/v1/session/trades/{id}/accept": "LolChampSelectLegacyV1SessionTradesByIdAccept",
+        "/lol-champ-select-legacy/v1/session/trades/{id}/cancel": "LolChampSelectLegacyV1SessionTradesByIdCancel",
+        "/lol-champ-select-legacy/v1/session/trades/{id}/decline": "LolChampSelectLegacyV1SessionTradesByIdDecline",
+        "/lol-champ-select-legacy/v1/session/trades/{id}/request": "LolChampSelectLegacyV1SessionTradesByIdRequest",
+        "/lol-champ-select-legacy/v1/team-boost": "LolChampSelectLegacyV1TeamBoost"
+    },
+    "/lol-champ-select/v1": {
+        "/lol-champ-select/v1/all-grid-champions": "LolChampSelectV1AllGridChampions",
+        "/lol-champ-select/v1/bannable-champion-ids": "LolChampSelectV1BannableChampionIds",
+        "/lol-champ-select/v1/battle-training/launch": "LolChampSelectV1BattleTrainingLaunch",
+        "/lol-champ-select/v1/current-champion": "LolChampSelectV1CurrentChampion",
+        "/lol-champ-select/v1/disabled-champion-ids": "LolChampSelectV1DisabledChampionIds",
+        "/lol-champ-select/v1/grid-champions/{championId}": "LolChampSelectV1GridChampionsByChampionId",
+        "/lol-champ-select/v1/muted-players": "LolChampSelectV1MutedPlayers",
+        "/lol-champ-select/v1/ongoing-trade": "LolChampSelectV1OngoingTrade",
+        "/lol-champ-select/v1/ongoing-trade/{id}/clear": "LolChampSelectV1OngoingTradeByIdClear",
+        "/lol-champ-select/v1/pickable-champion-ids": "LolChampSelectV1PickableChampionIds",
+        "/lol-champ-select/v1/pickable-skin-ids": "LolChampSelectV1PickableSkinIds",
+        "/lol-champ-select/v1/pin-drop-notification": "LolChampSelectV1PinDropNotification",
+        "/lol-champ-select/v1/retrieve-latest-game-dto": "LolChampSelectV1RetrieveLatestGameDto",
+        "/lol-champ-select/v1/session": "LolChampSelectV1Session",
+        "/lol-champ-select/v1/session/actions/{id}": "PatchLolChampSelectV1SessionActionsById",
+        "/lol-champ-select/v1/session/actions/{id}/complete": "LolChampSelectV1SessionActionsByIdComplete",
+        "/lol-champ-select/v1/session/bench/swap/{championId}": "LolChampSelectV1SessionBenchSwapByChampionId",
+        "/lol-champ-select/v1/session/my-selection": "PatchLolChampSelectV1SessionMySelection",
+        "/lol-champ-select/v1/session/my-selection/reroll": "LolChampSelectV1SessionMySelectionReroll",
+        "/lol-champ-select/v1/session/simple-inventory": "LolChampSelectV1SessionSimpleInventory",
+        "/lol-champ-select/v1/session/timer": "LolChampSelectV1SessionTimer",
+        "/lol-champ-select/v1/session/trades": "LolChampSelectV1SessionTrades",
+        "/lol-champ-select/v1/session/trades/{id}": "LolChampSelectV1SessionTradesById",
+        "/lol-champ-select/v1/session/trades/{id}/accept": "LolChampSelectV1SessionTradesByIdAccept",
+        "/lol-champ-select/v1/session/trades/{id}/cancel": "LolChampSelectV1SessionTradesByIdCancel",
+        "/lol-champ-select/v1/session/trades/{id}/decline": "LolChampSelectV1SessionTradesByIdDecline",
+        "/lol-champ-select/v1/session/trades/{id}/request": "LolChampSelectV1SessionTradesByIdRequest",
+        "/lol-champ-select/v1/sfx-notifications": "LolChampSelectV1SfxNotifications",
+        "/lol-champ-select/v1/skin-carousel-skins": "LolChampSelectV1SkinCarouselSkins",
+        "/lol-champ-select/v1/skin-selector-info": "LolChampSelectV1SkinSelectorInfo",
+        "/lol-champ-select/v1/summoners/{slotId}": "LolChampSelectV1SummonersBySlotId",
+        "/lol-champ-select/v1/team-boost": "LolChampSelectV1TeamBoost",
+        "/lol-champ-select/v1/team-boost/purchase": "LolChampSelectV1TeamBoostPurchase",
+        "/lol-champ-select/v1/toggle-favorite/{championId}/{position}": "LolChampSelectV1ToggleFavoriteByChampionIdByPosition",
+        "/lol-champ-select/v1/toggle-player-muted": "LolChampSelectV1TogglePlayerMuted"
+    },
+    "/lol-champions/v1": {
+        "/lol-champions/v1/inventories/{summonerId}/champions": "LolChampionsV1InventoriesBySummonerIdChampions",
+        "/lol-champions/v1/inventories/{summonerId}/champions-minimal": "LolChampionsV1InventoriesBySummonerIdChampionsMinimal",
+        "/lol-champions/v1/inventories/{summonerId}/champions-playable-count": "LolChampionsV1InventoriesBySummonerIdChampionsPlayableCount",
+        "/lol-champions/v1/inventories/{summonerId}/champions/{championId}": "LolChampionsV1InventoriesBySummonerIdChampionsByChampionId",
+        "/lol-champions/v1/inventories/{summonerId}/champions/{championId}/skins": "LolChampionsV1InventoriesBySummonerIdChampionsByChampionIdSkins",
+        "/lol-champions/v1/inventories/{summonerId}/champions/{championId}/skins/{championSkinId}": "LolChampionsV1InventoriesBySummonerIdChampionsByChampionIdSkinsByChampionSkinId",
+        "/lol-champions/v1/inventories/{summonerId}/champions/{championId}/skins/{skinId}/chromas": "LolChampionsV1InventoriesBySummonerIdChampionsByChampionIdSkinsBySkinIdChromas",
+        "/lol-champions/v1/inventories/{summonerId}/skins-minimal": "LolChampionsV1InventoriesBySummonerIdSkinsMinimal",
+        "/lol-champions/v1/owned-champions-minimal": "LolChampionsV1OwnedChampionsMinimal"
+    },
+    "/lol-chat/v1": {
+        "/lol-chat/v1/blocked-players": "LolChatV1BlockedPlayers",
+        "/lol-chat/v1/blocked-players/{id}": "LolChatV1BlockedPlayersById",
+        "/lol-chat/v1/config": "LolChatV1Config",
+        "/lol-chat/v1/conversations": "LolChatV1Conversations",
+        "/lol-chat/v1/conversations/active": "LolChatV1ConversationsActive",
+        "/lol-chat/v1/conversations/notify": "LolChatV1ConversationsNotify",
+        "/lol-chat/v1/conversations/{id}": "LolChatV1ConversationsById",
+        "/lol-chat/v1/conversations/{id}/closed": "LolChatV1ConversationsByIdClosed",
+        "/lol-chat/v1/conversations/{id}/messages": "LolChatV1ConversationsByIdMessages",
+        "/lol-chat/v1/conversations/{id}/participants": "LolChatV1ConversationsByIdParticipants",
+        "/lol-chat/v1/conversations/{id}/messages/{messageId}": "LolChatV1ConversationsByIdMessagesByMessageId",
+        "/lol-chat/v1/conversations/{id}/participants/{pid}": "LolChatV1ConversationsByIdParticipantsByPid",
+        "/lol-chat/v1/errors": "LolChatV1Errors",
+        "/lol-chat/v1/errors/{id}": "LolChatV1ErrorsById",
+        "/lol-chat/v1/friend-counts": "LolChatV1FriendCounts",
+        "/lol-chat/v1/friend-exists/{summonerId}": "LolChatV1FriendExistsBySummonerId",
+        "/lol-chat/v1/friend-groups": "LolChatV1FriendGroups",
+        "/lol-chat/v1/friend-groups/order": "LolChatV1FriendGroupsOrder",
+        "/lol-chat/v1/friend-groups/{id}": "LolChatV1FriendGroupsById",
+        "/lol-chat/v1/friend-groups/{id}/friends": "LolChatV1FriendGroupsByIdFriends",
+        "/lol-chat/v1/friend-requests": "LolChatV1FriendRequests",
+        "/lol-chat/v1/friend-requests/{id}": "LolChatV1FriendRequestsById",
+        "/lol-chat/v1/friends": "LolChatV1Friends",
+        "/lol-chat/v1/friends/{id}": "LolChatV1FriendsById",
+        "/lol-chat/v1/me": "LolChatV1Me",
+        "/lol-chat/v1/player-mutes": "LolChatV1PlayerMutes",
+        "/lol-chat/v1/resources": "LolChatV1Resources",
+        "/lol-chat/v1/session": "LolChatV1Session",
+        "/lol-chat/v1/session/plain": "LolChatV1SessionPlain",
+        "/lol-chat/v1/session/rso": "LolChatV1SessionRso",
+        "/lol-chat/v1/settings": "LolChatV1Settings",
+        "/lol-chat/v1/settings/{key}": "LolChatV1SettingsByKey"
+    },
+    "/lol-clash/v1": {
+        "/lol-clash/v1/all-tournaments": "LolClashV1AllTournaments",
+        "/lol-clash/v1/bracket/{bracketId}": "LolClashV1BracketByBracketId",
+        "/lol-clash/v1/checkin-allowed": "LolClashV1CheckinAllowed",
+        "/lol-clash/v1/currentTournamentIds": "LolClashV1CurrentTournamentIds",
+        "/lol-clash/v1/disabled-config": "LolClashV1DisabledConfig",
+        "/lol-clash/v1/enabled": "LolClashV1Enabled",
+        "/lol-clash/v1/eog-player-update": "LolClashV1EogPlayerUpdate",
+        "/lol-clash/v1/eog-player-update/acknowledge": "LolClashV1EogPlayerUpdateAcknowledge",
+        "/lol-clash/v1/event/{uuid}": "LolClashV1EventByUuid",
+        "/lol-clash/v1/events": "LolClashV1Events",
+        "/lol-clash/v1/game-end": "LolClashV1GameEnd",
+        "/lol-clash/v1/game-end/acknowledge": "LolClashV1GameEndAcknowledge",
+        "/lol-clash/v1/historyandwinners": "LolClashV1Historyandwinners",
+        "/lol-clash/v1/iconconfig": "LolClashV1Iconconfig",
+        "/lol-clash/v1/invited-roster-ids": "LolClashV1InvitedRosterIds",
+        "/lol-clash/v1/lft/player": "LolClashV1LftPlayer",
+        "/lol-clash/v1/lft/player/find": "LolClashV1LftPlayerFind",
+        "/lol-clash/v1/lft/team": "LolClashV1LftTeam",
+        "/lol-clash/v1/lft/team/fetch-requests": "LolClashV1LftTeamFetchRequests",
+        "/lol-clash/v1/lft/team/find": "LolClashV1LftTeamFind",
+        "/lol-clash/v1/lft/team/requests": "LolClashV1LftTeamRequests",
+        "/lol-clash/v1/lft/team/{rosterId}/request": "LolClashV1LftTeamByRosterIdRequest",
+        "/lol-clash/v1/notifications": "LolClashV1Notifications",
+        "/lol-clash/v1/notifications/acknowledge": "LolClashV1NotificationsAcknowledge",
+        "/lol-clash/v1/ping": "LolClashV1Ping",
+        "/lol-clash/v1/player": "LolClashV1Player",
+        "/lol-clash/v1/player/chat-rosters": "LolClashV1PlayerChatRosters",
+        "/lol-clash/v1/player/history": "LolClashV1PlayerHistory",
+        "/lol-clash/v1/player/roster": "LolClashV1PlayerRoster",
+        "/lol-clash/v1/playmode-restricted": "LolClashV1PlaymodeRestricted",
+        "/lol-clash/v1/ready": "LolClashV1Ready",
+        "/lol-clash/v1/refresh": "LolClashV1Refresh",
+        "/lol-clash/v1/rewards": "LolClashV1Rewards",
+        "/lol-clash/v1/roster/{rosterId}": "LolClashV1RosterByRosterId",
+        "/lol-clash/v1/roster/{rosterId}/accept": "LolClashV1RosterByRosterIdAccept",
+        "/lol-clash/v1/roster/{rosterId}/cancel-withdraw": "LolClashV1RosterByRosterIdCancelWithdraw",
+        "/lol-clash/v1/roster/{rosterId}/change-all-details": "LolClashV1RosterByRosterIdChangeAllDetails",
+        "/lol-clash/v1/roster/{rosterId}/change-icon": "LolClashV1RosterByRosterIdChangeIcon",
+        "/lol-clash/v1/roster/{rosterId}/change-name": "LolClashV1RosterByRosterIdChangeName",
+        "/lol-clash/v1/roster/{rosterId}/change-short-name": "LolClashV1RosterByRosterIdChangeShortName",
+        "/lol-clash/v1/roster/{rosterId}/decline": "LolClashV1RosterByRosterIdDecline",
+        "/lol-clash/v1/roster/{rosterId}/disband": "LolClashV1RosterByRosterIdDisband",
+        "/lol-clash/v1/roster/{rosterId}/invite": "LolClashV1RosterByRosterIdInvite",
+        "/lol-clash/v1/roster/{rosterId}/kick": "LolClashV1RosterByRosterIdKick",
+        "/lol-clash/v1/roster/{rosterId}/leave": "LolClashV1RosterByRosterIdLeave",
+        "/lol-clash/v1/roster/{rosterId}/lockin": "LolClashV1RosterByRosterIdLockin",
+        "/lol-clash/v1/roster/{rosterId}/set-position": "LolClashV1RosterByRosterIdSetPosition",
+        "/lol-clash/v1/roster/{rosterId}/set-ticket": "LolClashV1RosterByRosterIdSetTicket",
+        "/lol-clash/v1/roster/{rosterId}/stats": "LolClashV1RosterByRosterIdStats",
+        "/lol-clash/v1/roster/{rosterId}/substitute/accept": "LolClashV1RosterByRosterIdSubstituteAccept",
+        "/lol-clash/v1/roster/{rosterId}/substitute/decline": "LolClashV1RosterByRosterIdSubstituteDecline",
+        "/lol-clash/v1/roster/{rosterId}/substitute/invite": "LolClashV1RosterByRosterIdSubstituteInvite",
+        "/lol-clash/v1/roster/{rosterId}/substitute/reclaim": "LolClashV1RosterByRosterIdSubstituteReclaim",
+        "/lol-clash/v1/roster/{rosterId}/substitute/{summonerId}/revoke": "LolClashV1RosterByRosterIdSubstituteBySummonerIdRevoke",
+        "/lol-clash/v1/roster/{rosterId}/suggest": "LolClashV1RosterByRosterIdSuggest",
+        "/lol-clash/v1/roster/{rosterId}/suggest/{summonerId}/accept": "LolClashV1RosterByRosterIdSuggestBySummonerIdAccept",
+        "/lol-clash/v1/roster/{rosterId}/suggest/{summonerId}/decline": "LolClashV1RosterByRosterIdSuggestBySummonerIdDecline",
+        "/lol-clash/v1/roster/{rosterId}/suggest/{summonerId}/revoke": "LolClashV1RosterByRosterIdSuggestBySummonerIdRevoke",
+        "/lol-clash/v1/roster/{rosterId}/ticket-offer/{summonerId}/accept": "LolClashV1RosterByRosterIdTicketOfferBySummonerIdAccept",
+        "/lol-clash/v1/roster/{rosterId}/ticket-offer/{summonerId}/decline": "LolClashV1RosterByRosterIdTicketOfferBySummonerIdDecline",
+        "/lol-clash/v1/roster/{rosterId}/ticket-offer/{summonerId}/offer": "LolClashV1RosterByRosterIdTicketOfferBySummonerIdOffer",
+        "/lol-clash/v1/roster/{rosterId}/ticket-offer/{summonerId}/revoke": "LolClashV1RosterByRosterIdTicketOfferBySummonerIdRevoke",
+        "/lol-clash/v1/roster/{rosterId}/transfer-captain": "LolClashV1RosterByRosterIdTransferCaptain",
+        "/lol-clash/v1/roster/{rosterId}/unlockin": "LolClashV1RosterByRosterIdUnlockin",
+        "/lol-clash/v1/roster/{rosterId}/unwithdraw": "LolClashV1RosterByRosterIdUnwithdraw",
+        "/lol-clash/v1/roster/{rosterId}/update-logos": "LolClashV1RosterByRosterIdUpdateLogos",
+        "/lol-clash/v1/roster/{rosterId}/withdraw": "LolClashV1RosterByRosterIdWithdraw",
+        "/lol-clash/v1/scouting/champions": "LolClashV1ScoutingChampions",
+        "/lol-clash/v1/scouting/matchhistory": "LolClashV1ScoutingMatchhistory",
+        "/lol-clash/v1/season-rewards/{seasonId}": "LolClashV1SeasonRewardsBySeasonId",
+        "/lol-clash/v1/simple-state-flags": "LolClashV1SimpleStateFlags",
+        "/lol-clash/v1/simple-state-flags/{id}/acknowledge": "LolClashV1SimpleStateFlagsByIdAcknowledge",
+        "/lol-clash/v1/thirdparty/team-data": "LolClashV1ThirdpartyTeamData",
+        "/lol-clash/v1/time": "LolClashV1Time",
+        "/lol-clash/v1/tournament-state-info": "LolClashV1TournamentStateInfo",
+        "/lol-clash/v1/tournament-summary": "LolClashV1TournamentSummary",
+        "/lol-clash/v1/tournament/cancelled": "LolClashV1TournamentCancelled",
+        "/lol-clash/v1/tournament/get-all-player-tiers": "LolClashV1TournamentGetAllPlayerTiers",
+        "/lol-clash/v1/tournament/{tournamentId}": "LolClashV1TournamentByTournamentId",
+        "/lol-clash/v1/tournament/{tournamentId}/create-roster": "LolClashV1TournamentByTournamentIdCreateRoster",
+        "/lol-clash/v1/tournament/{tournamentId}/get-player-tiers": "LolClashV1TournamentByTournamentIdGetPlayerTiers",
+        "/lol-clash/v1/tournament/{tournamentId}/player": "LolClashV1TournamentByTournamentIdPlayer",
+        "/lol-clash/v1/tournament/{tournamentId}/player-honor-restricted": "LolClashV1TournamentByTournamentIdPlayerHonorRestricted",
+        "/lol-clash/v1/tournament/{tournamentId}/stateInfo": "LolClashV1TournamentByTournamentIdStateInfo",
+        "/lol-clash/v1/tournament/{tournamentId}/winners": "LolClashV1TournamentByTournamentIdWinners",
+        "/lol-clash/v1/update-logos": "LolClashV1UpdateLogos",
+        "/lol-clash/v1/visible": "LolClashV1Visible",
+        "/lol-clash/v1/voice": "LolClashV1Voice",
+        "/lol-clash/v1/voice-delay/{delaySeconds}": "LolClashV1VoiceDelayByDelaySeconds",
+        "/lol-clash/v1/voice-enabled": "LolClashV1VoiceEnabled"
+    },
+    "/lol-clash/v2": {
+        "/lol-clash/v2/playmode-restricted": "LolClashV2PlaymodeRestricted"
+    },
+    "/lol-client-config/v3": {
+        "/lol-client-config/v3/client-config/{name}": "LolClientConfigV3ClientConfigByName"
+    },
+    "/lol-collections/v1": {
+        "/lol-collections/v1/inventories/chest-eligibility": "LolCollectionsV1InventoriesChestEligibility",
+        "/lol-collections/v1/inventories/local-player/champion-mastery-score": "LolCollectionsV1InventoriesLocalPlayerChampionMasteryScore",
+        "/lol-collections/v1/inventories/scouting": "LolCollectionsV1InventoriesScouting",
+        "/lol-collections/v1/inventories/{summonerId}/backdrop": "LolCollectionsV1InventoriesBySummonerIdBackdrop",
+        "/lol-collections/v1/inventories/{summonerId}/champion-mastery": "LolCollectionsV1InventoriesBySummonerIdChampionMastery",
+        "/lol-collections/v1/inventories/{summonerId}/champion-mastery/top": "LolCollectionsV1InventoriesBySummonerIdChampionMasteryTop",
+        "/lol-collections/v1/inventories/{summonerId}/spells": "LolCollectionsV1InventoriesBySummonerIdSpells",
+        "/lol-collections/v1/inventories/{summonerId}/verification": "LolCollectionsV1InventoriesBySummonerIdVerification",
+        "/lol-collections/v1/inventories/{summonerId}/ward-skins": "LolCollectionsV1InventoriesBySummonerIdWardSkins",
+        "/lol-collections/v1/inventories/{summonerId}/ward-skins/{wardSkinId}": "LolCollectionsV1InventoriesBySummonerIdWardSkinsByWardSkinId"
+    },
+    "/lol-content-targeting/v1": {
+        "/lol-content-targeting/v1/filters": "LolContentTargetingV1Filters",
+        "/lol-content-targeting/v1/locale": "LolContentTargetingV1Locale",
+        "/lol-content-targeting/v1/protected_filters": "LolContentTargetingV1ProtectedFilters",
+        "/lol-content-targeting/v1/tft_experiment_bucket": "LolContentTargetingV1TftExperimentBucket"
+    },
+    "/lol-cosmetics/v1": {
+        "/lol-cosmetics/v1/inventories/{setName}/companions": "LolCosmeticsV1InventoriesBySetNameCompanions",
+        "/lol-cosmetics/v1/inventories/{setName}/damage-skins": "LolCosmeticsV1InventoriesBySetNameDamageSkins",
+        "/lol-cosmetics/v1/inventories/{setName}/map-skins": "LolCosmeticsV1InventoriesBySetNameMapSkins",
+        "/lol-cosmetics/v1/recent/{type}": "PatchLolCosmeticsV1RecentByType",
+        "/lol-cosmetics/v1/selection/companion": "LolCosmeticsV1SelectionCompanion",
+        "/lol-cosmetics/v1/selection/tft-damage-skin": "LolCosmeticsV1SelectionTftDamageSkin",
+        "/lol-cosmetics/v1/selection/tft-map-skin": "LolCosmeticsV1SelectionTftMapSkin"
+    },
+    "/lol-email-verification/v1": {
+        "/lol-email-verification/v1/confirm-email": "LolEmailVerificationV1ConfirmEmail",
+        "/lol-email-verification/v1/email": "LolEmailVerificationV1Email"
+    },
+    "/lol-end-of-game/v1": {
+        "/lol-end-of-game/v1/champion-mastery-updates": "LolEndOfGameV1ChampionMasteryUpdates",
+        "/lol-end-of-game/v1/eog-stats-block": "LolEndOfGameV1EogStatsBlock",
+        "/lol-end-of-game/v1/gameclient-eog-stats-block": "LolEndOfGameV1GameclientEogStatsBlock",
+        "/lol-end-of-game/v1/reported-players": "LolEndOfGameV1ReportedPlayers",
+        "/lol-end-of-game/v1/state/dismiss-stats": "LolEndOfGameV1StateDismissStats",
+        "/lol-end-of-game/v1/tft-eog-stats": "LolEndOfGameV1TftEogStats"
+    },
+    "/lol-end-of-game/v2": {
+        "/lol-end-of-game/v2/player-complaints": "LolEndOfGameV2PlayerComplaints"
+    },
+    "/lol-esport-stream-notifications/v1": {
+        "/lol-esport-stream-notifications/v1/live-streams": "LolEsportStreamNotificationsV1LiveStreams",
+        "/lol-esport-stream-notifications/v1/send-stats": "LolEsportStreamNotificationsV1SendStats",
+        "/lol-esport-stream-notifications/v1/stream-url": "LolEsportStreamNotificationsV1StreamUrl"
+    },
+    "/lol-game-client-chat/v1": {
+        "/lol-game-client-chat/v1/buddies": "LolGameClientChatV1Buddies",
+        "/lol-game-client-chat/v1/ignored-summoners": "LolGameClientChatV1IgnoredSummoners",
+        "/lol-game-client-chat/v1/instant-messages": "LolGameClientChatV1InstantMessages",
+        "/lol-game-client-chat/v1/muted-summoners": "LolGameClientChatV1MutedSummoners",
+        "/lol-game-client-chat/v1/party-messages": "LolGameClientChatV1PartyMessages",
+        "/lol-game-client-chat/v1/buddies/{name}": "LolGameClientChatV1BuddiesByName"
+    },
+    "/lol-game-queues/v1": {
+        "/lol-game-queues/v1/custom": "LolGameQueuesV1Custom",
+        "/lol-game-queues/v1/custom-non-default": "LolGameQueuesV1CustomNonDefault",
+        "/lol-game-queues/v1/game-type-config/{gameTypeConfigId}": "LolGameQueuesV1GameTypeConfigByGameTypeConfigId",
+        "/lol-game-queues/v1/game-type-config/{gameTypeConfigId}/map/{mapId}": "LolGameQueuesV1GameTypeConfigByGameTypeConfigIdMapByMapId",
+        "/lol-game-queues/v1/queues": "LolGameQueuesV1Queues",
+        "/lol-game-queues/v1/queues/type/{queueType}": "LolGameQueuesV1QueuesTypeByQueueType",
+        "/lol-game-queues/v1/queues/{id}": "LolGameQueuesV1QueuesById"
+    },
+    "/lol-game-settings/v1": {
+        "/lol-game-settings/v1/didreset": "LolGameSettingsV1Didreset",
+        "/lol-game-settings/v1/game-settings": "LolGameSettingsV1GameSettings",
+        "/lol-game-settings/v1/game-settings-schema": "LolGameSettingsV1GameSettingsSchema",
+        "/lol-game-settings/v1/input-settings": "LolGameSettingsV1InputSettings",
+        "/lol-game-settings/v1/input-settings-schema": "LolGameSettingsV1InputSettingsSchema",
+        "/lol-game-settings/v1/ready": "LolGameSettingsV1Ready",
+        "/lol-game-settings/v1/reload-post-game": "LolGameSettingsV1ReloadPostGame",
+        "/lol-game-settings/v1/save": "LolGameSettingsV1Save"
+    },
+    "/lol-gameflow/v1": {
+        "/lol-gameflow/v1/ack-failed-to-launch": "LolGameflowV1AckFailedToLaunch",
+        "/lol-gameflow/v1/active-patcher-lock": "LolGameflowV1ActivePatcherLock",
+        "/lol-gameflow/v1/availability": "LolGameflowV1Availability",
+        "/lol-gameflow/v1/basic-tutorial": "LolGameflowV1BasicTutorial",
+        "/lol-gameflow/v1/basic-tutorial/start": "LolGameflowV1BasicTutorialStart",
+        "/lol-gameflow/v1/battle-training": "LolGameflowV1BattleTraining",
+        "/lol-gameflow/v1/battle-training/start": "LolGameflowV1BattleTrainingStart",
+        "/lol-gameflow/v1/battle-training/stop": "LolGameflowV1BattleTrainingStop",
+        "/lol-gameflow/v1/client-received-message": "LolGameflowV1ClientReceivedMessage",
+        "/lol-gameflow/v1/early-exit": "LolGameflowV1EarlyExit",
+        "/lol-gameflow/v1/early-exit-notifications/eog": "LolGameflowV1EarlyExitNotificationsEog",
+        "/lol-gameflow/v1/early-exit-notifications/eog/{key}": "LolGameflowV1EarlyExitNotificationsEogByKey",
+        "/lol-gameflow/v1/early-exit-notifications/missions": "LolGameflowV1EarlyExitNotificationsMissions",
+        "/lol-gameflow/v1/early-exit-notifications/missions/{key}": "LolGameflowV1EarlyExitNotificationsMissionsByKey",
+        "/lol-gameflow/v1/extra-game-client-args": "LolGameflowV1ExtraGameClientArgs",
+        "/lol-gameflow/v1/gameflow-metadata/player-status": "LolGameflowV1GameflowMetadataPlayerStatus",
+        "/lol-gameflow/v1/gameflow-metadata/registration-status": "LolGameflowV1GameflowMetadataRegistrationStatus",
+        "/lol-gameflow/v1/gameflow-phase": "LolGameflowV1GameflowPhase",
+        "/lol-gameflow/v1/pre-end-game-transition": "LolGameflowV1PreEndGameTransition",
+        "/lol-gameflow/v1/reconnect": "LolGameflowV1Reconnect",
+        "/lol-gameflow/v1/session": "LolGameflowV1Session",
+        "/lol-gameflow/v1/session/dodge": "LolGameflowV1SessionDodge",
+        "/lol-gameflow/v1/session/event": "LolGameflowV1SessionEvent",
+        "/lol-gameflow/v1/session/game-configuration": "LolGameflowV1SessionGameConfiguration",
+        "/lol-gameflow/v1/session/per-position-summoner-spells/disallowed": "LolGameflowV1SessionPerPositionSummonerSpellsDisallowed",
+        "/lol-gameflow/v1/session/per-position-summoner-spells/disallowed/as-string": "LolGameflowV1SessionPerPositionSummonerSpellsDisallowedAsString",
+        "/lol-gameflow/v1/session/per-position-summoner-spells/required": "LolGameflowV1SessionPerPositionSummonerSpellsRequired",
+        "/lol-gameflow/v1/session/per-position-summoner-spells/required/as-string": "LolGameflowV1SessionPerPositionSummonerSpellsRequiredAsString",
+        "/lol-gameflow/v1/session/request-enter-gameflow": "LolGameflowV1SessionRequestEnterGameflow",
+        "/lol-gameflow/v1/session/request-lobby": "LolGameflowV1SessionRequestLobby",
+        "/lol-gameflow/v1/session/request-tournament-checkin": "LolGameflowV1SessionRequestTournamentCheckin",
+        "/lol-gameflow/v1/session/tournament-ended": "LolGameflowV1SessionTournamentEnded",
+        "/lol-gameflow/v1/spectate": "LolGameflowV1Spectate",
+        "/lol-gameflow/v1/spectate/delayed-launch": "LolGameflowV1SpectateDelayedLaunch",
+        "/lol-gameflow/v1/spectate/launch": "LolGameflowV1SpectateLaunch",
+        "/lol-gameflow/v1/spectate/quit": "LolGameflowV1SpectateQuit",
+        "/lol-gameflow/v1/tick": "LolGameflowV1Tick",
+        "/lol-gameflow/v1/watch": "LolGameflowV1Watch",
+        "/lol-gameflow/v1/watch/launch": "LolGameflowV1WatchLaunch"
+    },
+    "/lol-gameflow/v2": {
+        "/lol-gameflow/v2/spectate/launch": "LolGameflowV2SpectateLaunch"
+    },
+    "/lol-geoinfo/v1": {
+        "/lol-geoinfo/v1/getlocation": "LolGeoinfoV1Getlocation",
+        "/lol-geoinfo/v1/whereami": "LolGeoinfoV1Whereami"
+    },
+    "/lol-highlights/v1": {
+        "/lol-highlights/v1/config": "LolHighlightsV1Config",
+        "/lol-highlights/v1/file-browser/{highlightId}": "LolHighlightsV1FileBrowserByHighlightId",
+        "/lol-highlights/v1/highlights": "LolHighlightsV1Highlights",
+        "/lol-highlights/v1/highlights-folder-path": "LolHighlightsV1HighlightsFolderPath",
+        "/lol-highlights/v1/highlights-folder-path/default": "LolHighlightsV1HighlightsFolderPathDefault",
+        "/lol-highlights/v1/highlights/{id}": "LolHighlightsV1HighlightsById"
+    },
+    "/lol-honor-v2/v1": {
+        "/lol-honor-v2/v1/ballot": "LolHonorV2V1Ballot",
+        "/lol-honor-v2/v1/config": "LolHonorV2V1Config",
+        "/lol-honor-v2/v1/honor-player": "LolHonorV2V1HonorPlayer",
+        "/lol-honor-v2/v1/late-recognition": "LolHonorV2V1LateRecognition",
+        "/lol-honor-v2/v1/late-recognition/ack": "LolHonorV2V1LateRecognitionAck",
+        "/lol-honor-v2/v1/latest-eligible-game": "LolHonorV2V1LatestEligibleGame",
+        "/lol-honor-v2/v1/level-change": "LolHonorV2V1LevelChange",
+        "/lol-honor-v2/v1/level-change/ack": "LolHonorV2V1LevelChangeAck",
+        "/lol-honor-v2/v1/mutual-honor": "LolHonorV2V1MutualHonor",
+        "/lol-honor-v2/v1/mutual-honor/ack": "LolHonorV2V1MutualHonorAck",
+        "/lol-honor-v2/v1/profile": "LolHonorV2V1Profile",
+        "/lol-honor-v2/v1/recognition": "LolHonorV2V1Recognition",
+        "/lol-honor-v2/v1/reward-granted": "LolHonorV2V1RewardGranted",
+        "/lol-honor-v2/v1/reward-granted/ack": "LolHonorV2V1RewardGrantedAck",
+        "/lol-honor-v2/v1/team-choices": "LolHonorV2V1TeamChoices",
+        "/lol-honor-v2/v1/vote-completion": "LolHonorV2V1VoteCompletion"
+    },
+    "/lol-hovercard/v1": {
+        "/lol-hovercard/v1/friend-info-by-summoner/{summonerId}": "LolHovercardV1FriendInfoBySummonerBySummonerId",
+        "/lol-hovercard/v1/friend-info/{puuid}": "LolHovercardV1FriendInfoByPuuid"
+    },
+    "/lol-inventory/v1": {
+        "/lol-inventory/v1/champSelectInventory": "LolInventoryV1ChampSelectInventory",
+        "/lol-inventory/v1/initial-configuration-complete": "LolInventoryV1InitialConfigurationComplete",
+        "/lol-inventory/v1/inventory": "LolInventoryV1Inventory",
+        "/lol-inventory/v1/inventory/emotes": "LolInventoryV1InventoryEmotes",
+        "/lol-inventory/v1/notification/acknowledge": "LolInventoryV1NotificationAcknowledge",
+        "/lol-inventory/v1/notifications/{inventoryType}": "LolInventoryV1NotificationsByInventoryType",
+        "/lol-inventory/v1/players/{puuid}/inventory": "LolInventoryV1PlayersByPuuidInventory",
+        "/lol-inventory/v1/signedInventory": "LolInventoryV1SignedInventory",
+        "/lol-inventory/v1/signedInventory/simple": "LolInventoryV1SignedInventorySimple",
+        "/lol-inventory/v1/signedInventory/tournamentlogos": "LolInventoryV1SignedInventoryTournamentlogos",
+        "/lol-inventory/v1/signedInventoryCache": "LolInventoryV1SignedInventoryCache",
+        "/lol-inventory/v1/signedWallet": "LolInventoryV1SignedWallet",
+        "/lol-inventory/v1/signedWallet/{currencyType}": "LolInventoryV1SignedWalletByCurrencyType",
+        "/lol-inventory/v1/wallet": "LolInventoryV1Wallet",
+        "/lol-inventory/v1/wallet/{currencyType}": "LolInventoryV1WalletByCurrencyType"
+    },
+    "/lol-inventory/v2": {
+        "/lol-inventory/v2/inventory/{inventoryType}": "LolInventoryV2InventoryByInventoryType"
+    },
+    "/lol-item-sets/v1": {
+        "/lol-item-sets/v1/item-sets/{summonerId}/sets": "LolItemSetsV1ItemSetsBySummonerIdSets",
+        "/lol-item-sets/v1/item-sets/{summonerId}/validate": "LolItemSetsV1ItemSetsBySummonerIdValidate"
+    },
+    "/lol-kickout/v1": {
+        "/lol-kickout/v1/notification": "LolKickoutV1Notification"
+    },
+    "/lol-kr-playtime-reminder/v1": {
+        "/lol-kr-playtime-reminder/v1/message": "LolKrPlaytimeReminderV1Message",
+        "/lol-kr-playtime-reminder/v1/playtime": "LolKrPlaytimeReminderV1Playtime"
+    },
+    "/lol-kr-shutdown-law/v1": {
+        "/lol-kr-shutdown-law/v1/custom-status": "LolKrShutdownLawV1CustomStatus",
+        "/lol-kr-shutdown-law/v1/disabled-queues": "LolKrShutdownLawV1DisabledQueues",
+        "/lol-kr-shutdown-law/v1/notification": "LolKrShutdownLawV1Notification",
+        "/lol-kr-shutdown-law/v1/queue-status/{queue_id}": "LolKrShutdownLawV1QueueStatusByQueueId",
+        "/lol-kr-shutdown-law/v1/rating-screen": "LolKrShutdownLawV1RatingScreen",
+        "/lol-kr-shutdown-law/v1/rating-screen/acknowledge": "LolKrShutdownLawV1RatingScreenAcknowledge",
+        "/lol-kr-shutdown-law/v1/status": "LolKrShutdownLawV1Status"
+    },
+    "/lol-league-session/v1": {
+        "/lol-league-session/v1/league-session-token": "LolLeagueSessionV1LeagueSessionToken"
+    },
+    "/lol-leaver-buster/v1": {
+        "/lol-leaver-buster/v1/notifications": "LolLeaverBusterV1Notifications",
+        "/lol-leaver-buster/v1/notifications/{id}": "LolLeaverBusterV1NotificationsById"
+    },
+    "/lol-license-agreement/v1": {
+        "/lol-license-agreement/v1/agreements": "LolLicenseAgreementV1Agreements",
+        "/lol-license-agreement/v1/agreements/{id}/accept": "LolLicenseAgreementV1AgreementsByIdAccept",
+        "/lol-license-agreement/v1/agreements/{id}/decline": "LolLicenseAgreementV1AgreementsByIdDecline",
+        "/lol-license-agreement/v1/all-agreements": "LolLicenseAgreementV1AllAgreements",
+        "/lol-license-agreement/v1/serve-location": "LolLicenseAgreementV1ServeLocation"
+    },
+    "/lol-loadouts/v1": {
+        "/lol-loadouts/v1/loadouts-ready": "LolLoadoutsV1LoadoutsReady",
+        "/lol-loadouts/v1/enabled": "LolLoadoutsV1LoadoutsEnabled"
+    },
+    "/lol-yourshop/v1": {
+        "/lol-yourshop/v1/modal": "LolYourshopV1Modal",
+        "/lol-yourshop/v1/ready": "LolYourshopV1Ready",
+        "/lol-yourshop/v1/status": "LolYourshopV1Status"
+    },
+    "/lol-honeyfruit/v1": {
+        "/lol-honeyfruit/v1/account-claim/migration": "LolHoneyfruitV1AccountClaimMigration",
+        "/lol-honeyfruit/v1/account-claim/auto-dismiss": "LolHoneyfruitV1AccountAutoDismiss"
+    },
+    "/lol-progression/v1": {
+        "/lol-progression/v1/ready": "LolProgressionV1Ready"
+    },
+    "/lol-marketing-preferences/v1": {
+        "/lol-marketing-preferences/v1/ready": "LolMarketingPreferencesV1Ready",
+        "/lol-marketing-preferences/v1/partition/faerie_court_embed_2023": "LolMarketingPreferencesV1PartitionFaerieCourtEmbed2023"
+    },
+    "/lol-loadouts/v4": {
+        "/lol-loadouts/v4/loadout/{id}": "LolLoadoutV4LoadoutById",
+        "/lol-loadouts/v4/loadouts": "LolLoadoutsV4Loadouts",
+        "/lol-loadouts/v4/loadouts/scope/account": "LolLoadoutsV4LoadoutsScopeAccount",
+        "/lol-loadouts/v4/loadouts/scope/{scope}/{scopeItemId}": "LolLoadoutsV4LoadoutsScopeByScopeByScopeItemId",
+        "/lol-loadouts/v4/loadouts/{id}": "LolLoadoutsV4LoadoutsById",
+        "/lol-loadouts/v4/loadouts/{loadoutId}": "LolLoadoutsV4LoadoutsByLoadoutId"
+    },
+    "/lol-lobby-team-builder/champ-select": {
+        "/lol-lobby-team-builder/champ-select/v1/bannable-champion-ids": "LolLobbyTeamBuilderChampSelectV1BannableChampionIds",
+        "/lol-lobby-team-builder/champ-select/v1/current-champion": "LolLobbyTeamBuilderChampSelectV1CurrentChampion",
+        "/lol-lobby-team-builder/champ-select/v1/disabled-champion-ids": "LolLobbyTeamBuilderChampSelectV1DisabledChampionIds",
+        "/lol-lobby-team-builder/champ-select/v1/has-auto-assigned-smite": "LolLobbyTeamBuilderChampSelectV1HasAutoAssignedSmite",
+        "/lol-lobby-team-builder/champ-select/v1/implementation-active": "LolLobbyTeamBuilderChampSelectV1ImplementationActive",
+        "/lol-lobby-team-builder/champ-select/v1/match-token": "LolLobbyTeamBuilderChampSelectV1MatchToken",
+        "/lol-lobby-team-builder/champ-select/v1/pickable-champion-ids": "LolLobbyTeamBuilderChampSelectV1PickableChampionIds",
+        "/lol-lobby-team-builder/champ-select/v1/pickable-skin-ids": "LolLobbyTeamBuilderChampSelectV1PickableSkinIds",
+        "/lol-lobby-team-builder/champ-select/v1/preferences": "LolLobbyTeamBuilderChampSelectV1Preferences",
+        "/lol-lobby-team-builder/champ-select/v1/retrieve-latest-game-dto": "LolLobbyTeamBuilderChampSelectV1RetrieveLatestGameDto",
+        "/lol-lobby-team-builder/champ-select/v1/sending-loadouts-gcos-enabled": "LolLobbyTeamBuilderChampSelectV1SendingLoadoutsGcosEnabled",
+        "/lol-lobby-team-builder/champ-select/v1/session": "LolLobbyTeamBuilderChampSelectV1Session",
+        "/lol-lobby-team-builder/champ-select/v1/session/actions/{id}": "PatchLolLobbyTeamBuilderChampSelectV1SessionActionsById",
+        "/lol-lobby-team-builder/champ-select/v1/session/actions/{id}/complete": "LolLobbyTeamBuilderChampSelectV1SessionActionsByIdComplete",
+        "/lol-lobby-team-builder/champ-select/v1/session/bench/swap/{championId}": "LolLobbyTeamBuilderChampSelectV1SessionBenchSwapByChampionId",
+        "/lol-lobby-team-builder/champ-select/v1/session/my-selection": "PatchLolLobbyTeamBuilderChampSelectV1SessionMySelection",
+        "/lol-lobby-team-builder/champ-select/v1/session/my-selection/reroll": "LolLobbyTeamBuilderChampSelectV1SessionMySelectionReroll",
+        "/lol-lobby-team-builder/champ-select/v1/session/timer": "LolLobbyTeamBuilderChampSelectV1SessionTimer",
+        "/lol-lobby-team-builder/champ-select/v1/session/trades": "LolLobbyTeamBuilderChampSelectV1SessionTrades",
+        "/lol-lobby-team-builder/champ-select/v1/session/trades/{id}": "LolLobbyTeamBuilderChampSelectV1SessionTradesById",
+        "/lol-lobby-team-builder/champ-select/v1/session/trades/{id}/accept": "LolLobbyTeamBuilderChampSelectV1SessionTradesByIdAccept",
+        "/lol-lobby-team-builder/champ-select/v1/session/trades/{id}/cancel": "LolLobbyTeamBuilderChampSelectV1SessionTradesByIdCancel",
+        "/lol-lobby-team-builder/champ-select/v1/session/trades/{id}/decline": "LolLobbyTeamBuilderChampSelectV1SessionTradesByIdDecline",
+        "/lol-lobby-team-builder/champ-select/v1/session/trades/{id}/request": "LolLobbyTeamBuilderChampSelectV1SessionTradesByIdRequest",
+        "/lol-lobby-team-builder/champ-select/v1/simple-inventory": "LolLobbyTeamBuilderChampSelectV1SimpleInventory",
+        "/lol-lobby-team-builder/champ-select/v1/team-boost": "LolLobbyTeamBuilderChampSelectV1TeamBoost",
+        "/lol-lobby-team-builder/champ-select/v1/team-boost/purchase": "LolLobbyTeamBuilderChampSelectV1TeamBoostPurchase"
+    },
+    "/lol-lobby-team-builder/v1": {
+        "/lol-lobby-team-builder/v1/matchmaking": "LolLobbyTeamBuilderV1Matchmaking",
+        "/lol-lobby-team-builder/v1/ready-check/accept": "LolLobbyTeamBuilderV1ReadyCheckAccept",
+        "/lol-lobby-team-builder/v1/ready-check/decline": "LolLobbyTeamBuilderV1ReadyCheckDecline"
+    },
+    "/lol-lobby/v1": {
+        "/lol-lobby/v1/autofill-displayed": "LolLobbyV1AutofillDisplayed",
+        "/lol-lobby/v1/clash": "LolLobbyV1Clash",
+        "/lol-lobby/v1/custom-games": "LolLobbyV1CustomGames",
+        "/lol-lobby/v1/custom-games/refresh": "LolLobbyV1CustomGamesRefresh",
+        "/lol-lobby/v1/custom-games/{id}": "LolLobbyV1CustomGamesById",
+        "/lol-lobby/v1/custom-games/{id}/join": "LolLobbyV1CustomGamesByIdJoin",
+        "/lol-lobby/v1/lobby/availability": "LolLobbyV1LobbyAvailability",
+        "/lol-lobby/v1/lobby/localMember": "LolLobbyV1LobbyLocalMember",
+        "/lol-lobby/v1/last-queued-lobby": "LolLobbyV1LobbyLastQueuedLobby",
+        "/lol-lobby/v1/lobby/countdown": "LolLobbyV1LobbyCountdown",
+        "/lol-lobby/v1/lobby/custom/bots": "LolLobbyV1LobbyCustomBots",
+        "/lol-lobby/v1/lobby/custom/available-bots": "LolLobbyV1LobbyCustomAvailableBots",
+        "/lol-lobby/v1/lobby/custom/bots/{summonerInternalName}": "LolLobbyV1LobbyCustomBotsBySummonerInternalName",
+        "/lol-lobby/v1/lobby/custom/cancel-champ-select": "LolLobbyV1LobbyCustomCancelChampSelect",
+        "/lol-lobby/v1/lobby/custom/start-champ-select": "LolLobbyV1LobbyCustomStartChampSelect",
+        "/lol-lobby/v1/lobby/custom/switch-teams": "LolLobbyV1LobbyCustomSwitchTeams",
+        "/lol-lobby/v1/lobby/custom/bots-enabled": "LolLobbyV1LobbyCustomBotsEnabled",
+        "/lol-lobby/v1/lobby/invitations": "LolLobbyV1LobbyInvitations",
+        "/lol-lobby/v1/lobby/invitations/{id}": "LolLobbyV1LobbyInvitationsById",
+        "/lol-lobby/v1/lobby/members/localMember/position-preferences": "LolLobbyV1LobbyMembersLocalMemberPositionPreferences",
+        "/lol-lobby/v1/lobby/members": "LolLobbyV1LobbyMembers",
+        "/lol-lobby/v1/parties/active": "LolLobbyV1PartiesActive",
+        "/lol-lobby/v1/parties/gamemode": "LolLobbyV1PartiesGamemode",
+        "/lol-lobby/v1/parties/metadata": "LolLobbyV1PartiesMetadata",
+        "/lol-lobby/v1/parties/player": "LolLobbyV1PartiesPlayer",
+        "/lol-lobby/v1/parties/queue": "LolLobbyV1PartiesQueue",
+        "/lol-lobby/v1/parties/ready": "LolLobbyV1PartiesReady",
+        "/lol-lobby/v1/parties/{partyId}/members/{puuid}/role": "LolLobbyV1PartiesByPartyIdMembersByPuuidRole",
+        "/lol-lobby/v1/party-rewards": "LolLobbyV1PartyRewards",
+        "/lol-lobby/v1/tournaments/{id}/join": "LolLobbyV1TournamentsByIdJoin"
+    },
+    "/lol-lobby/v2": {
+        "/lol-lobby/v2/comms/members": "LolLobbyV2CommsMembers",
+        "/lol-lobby/v2/comms/token": "LolLobbyV2CommsToken",
+        "/lol-lobby/v2/eligibility/game-select-eligibility-hash": "LolLobbyV2EligibilityGameSelectEligibilityHash",
+        "/lol-lobby/v2/eligibility/initial-configuration-complete": "LolLobbyV2EligibilityInitialConfigurationComplete",
+        "/lol-lobby/v2/eligibility/party": "LolLobbyV2EligibilityParty",
+        "/lol-lobby/v2/eligibility/self": "LolLobbyV2EligibilitySelf",
+        "/lol-lobby/v2/eog-invitations": "LolLobbyV2EogInvitations",
+        "/lol-lobby/v2/lobby": "LolLobbyV2Lobby",
+        "/lol-lobby/v2/lobby/countdown": "LolLobbyV2LobbyCountdown",
+        "/lol-lobby/v2/lobby/custom/available-bots": "LolLobbyV2LobbyCustomAvailableBots",
+        "/lol-lobby/v2/lobby/custom/bots-enabled": "LolLobbyV2LobbyCustomBotsEnabled",
+        "/lol-lobby/v2/lobby/invitations": "LolLobbyV2LobbyInvitations",
+        "/lol-lobby/v2/lobby/matchmaking/search": "LolLobbyV2LobbyMatchmakingSearch",
+        "/lol-lobby/v2/lobby/matchmaking/search-state": "LolLobbyV2LobbyMatchmakingSearchState",
+        "/lol-lobby/v2/lobby/members": "LolLobbyV2LobbyMembers",
+        "/lol-lobby/v2/lobby/members/localMember/position-preferences": "LolLobbyV2LobbyMembersLocalMemberPositionPreferences",
+        "/lol-lobby/v2/lobby/members/{summonerId}/grant-invite": "LolLobbyV2LobbyMembersBySummonerIdGrantInvite",
+        "/lol-lobby/v2/lobby/members/{summonerId}/kick": "LolLobbyV2LobbyMembersBySummonerIdKick",
+        "/lol-lobby/v2/lobby/members/{summonerId}/promote": "LolLobbyV2LobbyMembersBySummonerIdPromote",
+        "/lol-lobby/v2/lobby/members/{summonerId}/revoke-invite": "LolLobbyV2LobbyMembersBySummonerIdRevokeInvite",
+        "/lol-lobby/v2/lobby/partyType": "LolLobbyV2LobbyPartyType",
+        "/lol-lobby/v2/lobby/team/{team}": "LolLobbyV2LobbyTeamByTeam",
+        "/lol-lobby/v2/matchmaking/quick-search": "LolLobbyV2MatchmakingQuickSearch",
+        "/lol-lobby/v2/notifications": "LolLobbyV2Notifications",
+        "/lol-lobby/v2/notifications/{notificationId}": "LolLobbyV2NotificationsByNotificationId",
+        "/lol-lobby/v2/parties/overrides/EnabledForTeamBuilderQueues": "LolLobbyV2PartiesOverridesEnabledForTeamBuilderQueues",
+        "/lol-lobby/v2/party-active": "LolLobbyV2PartyActive",
+        "/lol-lobby/v2/party/eog-status": "LolLobbyV2PartyEogStatus",
+        "/lol-lobby/v2/party/{partyId}/join": "LolLobbyV2PartyByPartyIdJoin",
+        "/lol-lobby/v2/play-again": "LolLobbyV2PlayAgain",
+        "/lol-lobby/v2/play-again-decline": "LolLobbyV2PlayAgainDecline",
+        "/lol-lobby/v2/received-invitations": "LolLobbyV2ReceivedInvitations",
+        "/lol-lobby/v2/received-invitations/{invitationId}/accept": "LolLobbyV2ReceivedInvitationsByInvitationIdAccept",
+        "/lol-lobby/v2/received-invitations/{invitationId}/decline": "LolLobbyV2ReceivedInvitationsByInvitationIdDecline",
+        "/lol-lobby/v2/registration-status": "LolLobbyV2RegistrationStatus"
+    },
+    "/lol-login/v1": {
+        "/lol-login/v1/account-state": "LolLoginV1AccountState",
+        "/lol-login/v1/change-summoner-name": "LolLoginV1ChangeSummonerName",
+        "/lol-login/v1/delete-rso-on-close": "LolLoginV1RsoOnClose",
+        "/lol-login/v1/leagueSessionStatus": "LolLoginV1LeagueSessionStatus",
+        "/lol-login/v1/login-connection-state": "LolLoginV1LoginConnectionState",
+        "/lol-login/v1/login-data-packet": "LolLoginV1LoginDataPacket",
+        "/lol-login/v1/login-in-game-creds": "LolLoginV1LoginInGameCreds",
+        "/lol-login/v1/login-platform-credentials": "LolLoginV1LoginPlatformCredentials",
+        "/lol-login/v1/login-queue-state": "LolLoginV1LoginQueueState",
+        "/lol-login/v1/service-proxy-async-requests/{serviceName}/{methodName}": "LolLoginV1ServiceProxyAsyncRequestsByServiceNameByMethodName",
+        "/lol-login/v1/service-proxy-uuid-requests": "LolLoginV1ServiceProxyUuidRequests",
+        "/lol-login/v1/session": "LolLoginV1Session",
+        "/lol-login/v1/session/invoke": "LolLoginV1SessionInvoke",
+        "/lol-login/v1/shutdown-locks/{lockName}": "LolLoginV1ShutdownLocksByLockName",
+        "/lol-login/v1/summoner-session": "LolLoginV1SummonerSession",
+        "/lol-login/v1/summoner-session-failed": "LolLoginV1SummonerSessionFailed",
+        "/lol-login/v1/wallet": "LolLoginV1Wallet"
+    },
+    "/lol-login/v2": {
+        "/lol-login/v2/league-session-init-token": "LolLoginV2LeagueSessionInitToken"
+    },
+    "/lol-loot/v1": {
+        "/lol-loot/v1/currency-configuration": "LolLootV1CurrencyConfiguration",
+        "/lol-loot/v1/enabled": "LolLootV1Enabled",
+        "/lol-loot/v1/loot-grants": "LolLootV1LootGrants",
+        "/lol-loot/v1/loot-grants/{id}": "LolLootV1LootGrantsById",
+        "/lol-loot/v1/loot-items": "LolLootV1LootItems",
+        "/lol-loot/v1/loot-odds/{recipeName}": "LolLootV1LootOddsByRecipeName",
+        "/lol-loot/v1/milestones": "LolLootV1Milestones",
+        "/lol-loot/v1/milestones/counters": "LolLootV1MilestonesCounters",
+        "/lol-loot/v1/milestones/items": "LolLootV1MilestonesItems",
+        "/lol-loot/v1/milestones/{lootMilestonesId}": "LolLootV1MilestonesByLootMilestonesId",
+        "/lol-loot/v1/milestones/{lootMilestonesId}/claim": "LolLootV1MilestonesByLootMilestonesIdClaim",
+        "/lol-loot/v1/milestones/{lootMilestonesId}/claimProgress": "LolLootV1MilestonesByLootMilestonesIdClaimProgress",
+        "/lol-loot/v1/milestones/{lootMilestonesId}/counter": "LolLootV1MilestonesByLootMilestonesIdCounter",
+        "/lol-loot/v1/new-player-check-done": "LolLootV1NewPlayerCheckDone",
+        "/lol-loot/v1/new-player-check-done/{newValue}": "LolLootV1NewPlayerCheckDoneByNewValue",
+        "/lol-loot/v1/player-display-categories": "LolLootV1PlayerDisplayCategories",
+        "/lol-loot/v1/player-loot": "LolLootV1PlayerLoot",
+        "/lol-loot/v1/player-loot-map": "LolLootV1PlayerLootMap",
+        "/lol-loot/v1/player-loot-notifications": "LolLootV1PlayerLootNotifications",
+        "/lol-loot/v1/player-loot-notifications/{id}/acknowledge": "LolLootV1PlayerLootNotificationsByIdAcknowledge",
+        "/lol-loot/v1/player-loot/{lootId}": "LolLootV1PlayerLootByLootId",
+        "/lol-loot/v1/player-loot/{lootId}/context-menu": "LolLootV1PlayerLootByLootIdContextMenu",
+        "/lol-loot/v1/player-loot/{lootId}/new-notification": "LolLootV1PlayerLootByLootIdNewNotification",
+        "/lol-loot/v1/player-loot/{lootName}/redeem": "LolLootV1PlayerLootByLootNameRedeem",
+        "/lol-loot/v1/ready": "LolLootV1Ready",
+        "/lol-loot/v1/recipes/configuration": "LolLootV1RecipesConfiguration",
+        "/lol-loot/v1/recipes/initial-item/{lootId}": "LolLootV1RecipesInitialItemByLootId",
+        "/lol-loot/v1/recipes/{recipeName}/craft": "LolLootV1RecipesByRecipeNameCraft",
+        "/lol-loot/v1/refresh": "LolLootV1Refresh"
+    },
+    "/lol-loot/v2": {
+        "/lol-loot/v2/player-loot-map": "LolLootV2PlayerLootMap"
+    },
+    "/lol-loyalty/v1": {
+        "/lol-loyalty/v1/inventory-request-notification": "LolLoyaltyV1InventoryRequestNotification",
+        "/lol-loyalty/v1/status-notification": "LolLoyaltyV1StatusNotification",
+        "/lol-loyalty/v1/updateTftInventory": "LolLoyaltyV1UpdateTftInventory"
+    },
+    "/lol-maps/v1": {
+        "/lol-maps/v1/map": "LolMapsV1Map",
+        "/lol-maps/v1/map/{id}": "LolMapsV1MapById",
+        "/lol-maps/v1/maps": "LolMapsV1Maps"
+    },
+    "/lol-maps/v2": {
+        "/lol-maps/v2/map/{id}/{gameMode}": "LolMapsV2MapByIdByGameMode",
+        "/lol-maps/v2/map/{id}/{gameMode}/{gameMutator}": "LolMapsV2MapByIdByGameModeByGameMutator",
+        "/lol-maps/v2/maps": "LolMapsV2Maps"
+    },
+    "/lol-match-history/v1": {
+        "/lol-match-history/v1/acs-endpoint-override": "LolMatchHistoryV1AcsEndpointOverride",
+        "/lol-match-history/v1/delta": "LolMatchHistoryV1Delta",
+        "/lol-match-history/v1/game-timelines/{gameId}": "LolMatchHistoryV1GameTimelinesByGameId",
+        "/lol-match-history/v1/games/{gameId}": "LolMatchHistoryV1GamesByGameId",
+        "/lol-match-history/v1/products/lol/current-summoner/matches": "LolMatchHistoryV1ProductsLolCurrentSummonerMatches",
+        "/lol-match-history/v1/products/lol/{puuid}/matches": "LolMatchHistoryV1ProductsLolByPuuidMatches",
+        "/lol-match-history/v1/products/tft/{puuid}/matches": "LolMatchHistoryV1ProductsTftByPuuidMatches",
+        "/lol-match-history/v1/recently-played-summoners": "LolMatchHistoryV1RecentlyPlayedSummoners",
+        "/lol-match-history/v1/web-url": "LolMatchHistoryV1WebUrl"
+    },
+    "/lol-match-history/v3": {
+        "/lol-match-history/v3/matchlist/account/{accountId}": "LolMatchHistoryV3MatchlistAccountByAccountId"
+    },
+    "/lol-matchmaking/v1": {
+        "/lol-matchmaking/v1/ready-check": "LolMatchmakingV1ReadyCheck",
+        "/lol-matchmaking/v1/ready-check/accept": "LolMatchmakingV1ReadyCheckAccept",
+        "/lol-matchmaking/v1/ready-check/decline": "LolMatchmakingV1ReadyCheckDecline",
+        "/lol-matchmaking/v1/search": "LolMatchmakingV1Search",
+        "/lol-matchmaking/v1/search/errors": "LolMatchmakingV1SearchErrors",
+        "/lol-matchmaking/v1/search/errors/{id}": "LolMatchmakingV1SearchErrorsById"
+    },
+    "/lol-missions/v1": {
+        "/lol-missions/v1/data": "LolMissionsV1Data",
+        "/lol-missions/v1/force": "LolMissionsV1Force",
+        "/lol-missions/v1/missions": "LolMissionsV1Missions",
+        "/lol-missions/v1/player": "LolMissionsV1Player",
+        "/lol-missions/v1/player/{missionId}": "LolMissionsV1PlayerByMissionId",
+        "/lol-missions/v1/series": "LolMissionsV1Series"
+    },
+    "/lol-missions/v2": {
+        "/lol-missions/v2/player/opt": "LolMissionsV2PlayerOpt"
+    },
+    "/lol-npe-rewards/v1": {
+        "/lol-npe-rewards/v1/challenges/opt": "LolNpeRewardsV1ChallengesOpt",
+        "/lol-npe-rewards/v1/challenges/progress": "LolNpeRewardsV1ChallengesProgress",
+        "/lol-npe-rewards/v1/level-rewards": "LolNpeRewardsV1LevelRewards",
+        "/lol-npe-rewards/v1/level-rewards/state": "LolNpeRewardsV1LevelRewardsState",
+        "/lol-npe-rewards/v1/login-rewards": "LolNpeRewardsV1LoginRewards",
+        "/lol-npe-rewards/v1/login-rewards/state": "LolNpeRewardsV1LoginRewardsState"
+    },
+    "/lol-npe-tutorial-path/v1": {
+        "/lol-npe-tutorial-path/v1/rewards/champ": "LolNpeTutorialPathV1RewardsChamp",
+        "/lol-npe-tutorial-path/v1/settings": "LolNpeTutorialPathV1Settings",
+        "/lol-npe-tutorial-path/v1/tutorials": "LolNpeTutorialPathV1Tutorials",
+        "/lol-npe-tutorial-path/v1/tutorials/init": "PatchLolNpeTutorialPathV1TutorialsInit",
+        "/lol-npe-tutorial-path/v1/tutorials/{tutorialId}/view": "LolNpeTutorialPathV1TutorialsByTutorialIdView"
+    },
+    "/lol-patch/v1": {
+        "/lol-patch/v1/checking-enabled": "LolPatchV1CheckingEnabled",
+        "/lol-patch/v1/environment": "LolPatchV1Environment",
+        "/lol-patch/v1/game-patch-url": "LolPatchV1GamePatchUrl",
+        "/lol-patch/v1/game-version": "LolPatchV1GameVersion",
+        "/lol-patch/v1/notifications": "LolPatchV1Notifications",
+        "/lol-patch/v1/notifications/{id}": "LolPatchV1NotificationsById",
+        "/lol-patch/v1/products/league_of_legends/detect-corruption-request": "LolPatchV1ProductsLeagueOfLegendsDetectCorruptionRequest",
+        "/lol-patch/v1/products/league_of_legends/install-location": "LolPatchV1ProductsLeagueOfLegendsInstallLocation",
+        "/lol-patch/v1/products/league_of_legends/partial-repair-request": "LolPatchV1ProductsLeagueOfLegendsPartialRepairRequest",
+        "/lol-patch/v1/products/league_of_legends/start-checking-request": "LolPatchV1ProductsLeagueOfLegendsStartCheckingRequest",
+        "/lol-patch/v1/products/league_of_legends/start-patching-request": "LolPatchV1ProductsLeagueOfLegendsStartPatchingRequest",
+        "/lol-patch/v1/products/league_of_legends/state": "LolPatchV1ProductsLeagueOfLegendsState",
+        "/lol-patch/v1/products/league_of_legends/stop-checking-request": "LolPatchV1ProductsLeagueOfLegendsStopCheckingRequest",
+        "/lol-patch/v1/products/league_of_legends/stop-patching-request": "LolPatchV1ProductsLeagueOfLegendsStopPatchingRequest",
+        "/lol-patch/v1/products/league_of_legends/supported-game-releases": "LolPatchV1ProductsLeagueOfLegendsSupportedGameReleases",
+        "/lol-patch/v1/self-update-restart": "LolPatchV1SelfUpdateRestart",
+        "/lol-patch/v1/status": "LolPatchV1Status",
+        "/lol-patch/v1/ux": "LolPatchV1Ux"
+    },
+    "/lol-perks/v1": {
+        "/lol-perks/v1/currentpage": "LolPerksV1Currentpage",
+        "/lol-perks/v1/customizationlimits": "LolPerksV1Customizationlimits",
+        "/lol-perks/v1/inventory": "LolPerksV1Inventory",
+        "/lol-perks/v1/pages": "LolPerksV1Pages",
+        "/lol-perks/v1/pages/validate": "LolPerksV1PagesValidate",
+        "/lol-perks/v1/pages/{id}": "LolPerksV1PagesById",
+        "/lol-perks/v1/pages/{id}/auto-modified-selections": "LolPerksV1PagesByIdAutoModifiedSelections",
+        "/lol-perks/v1/perks": "LolPerksV1Perks",
+        "/lol-perks/v1/perks/ack-gameplay-updated": "LolPerksV1PerksAckGameplayUpdated",
+        "/lol-perks/v1/perks/disabled": "LolPerksV1PerksDisabled",
+        "/lol-perks/v1/perks/gameplay-updated": "LolPerksV1PerksGameplayUpdated",
+        "/lol-perks/v1/schema-version": "LolPerksV1SchemaVersion",
+        "/lol-perks/v1/servicesettings": "LolPerksV1Servicesettings",
+        "/lol-perks/v1/settings": "LolPerksV1Settings",
+        "/lol-perks/v1/show-auto-modified-pages-notification": "LolPerksV1ShowAutoModifiedPagesNotification",
+        "/lol-perks/v1/styles": "LolPerksV1Styles",
+        "/lol-perks/v1/rune-recommender-auto-select": "LolPerksV1RuneRecommenderAutoSelect",
+        "/lol-perks/v1/update-page-order": "LolPerksV1UpdatePageOrder"
+    },
+    "/lol-personalized-offers/v1": {
+        "/lol-personalized-offers/v1/offers": "LolPersonalizedOffersV1Offers",
+        "/lol-personalized-offers/v1/offers/{id}/purchase": "LolPersonalizedOffersV1OffersByIdPurchase",
+        "/lol-personalized-offers/v1/offers/{id}/reveal": "LolPersonalizedOffersV1OffersByIdReveal",
+        "/lol-personalized-offers/v1/ready": "LolPersonalizedOffersV1Ready",
+        "/lol-personalized-offers/v1/status": "LolPersonalizedOffersV1Status",
+        "/lol-personalized-offers/v1/themed": "LolPersonalizedOffersV1Themed"
+    },
+    "/lol-pft/v2": {
+        "/lol-pft/v2/events": "LolPftV2Events",
+        "/lol-pft/v2/survey": "LolPftV2Survey"
+    },
+    "/lol-platform-config/v1": {
+        "/lol-platform-config/v1/initial-configuration-complete": "LolPlatformConfigV1InitialConfigurationComplete",
+        "/lol-platform-config/v1/namespaces": "LolPlatformConfigV1Namespaces",
+        "/lol-platform-config/v1/namespaces/{ns}": "LolPlatformConfigV1NamespacesByNs",
+        "/lol-platform-config/v1/namespaces/{ns}/{key}": "LolPlatformConfigV1NamespacesByNsByKey"
+    },
+    "/lol-player-behavior/v1": {
+        "/lol-player-behavior/v1/ban": "LolPlayerBehaviorV1Ban",
+        "/lol-player-behavior/v1/chat-restriction": "LolPlayerBehaviorV1ChatRestriction",
+        "/lol-player-behavior/v1/code-of-conduct-notification": "LolPlayerBehaviorV1CodeOfConductNotification",
+        "/lol-player-behavior/v1/config": "LolPlayerBehaviorV1Config",
+        "/lol-player-behavior/v1/ranked-restriction": "LolPlayerBehaviorV1RankedRestriction",
+        "/lol-player-behavior/v1/reform-card": "LolPlayerBehaviorV1ReformCard",
+        "/lol-player-behavior/v1/reporter-feedback": "LolPlayerBehaviorV1ReporterFeedback",
+        "/lol-player-behavior/v1/reporter-feedback/{id}": "LolPlayerBehaviorV1ReporterFeedbackById"
+    },
+    "/lol-player-behavior/v2": {
+        "/lol-player-behavior/v2/reform-card": "LolPlayerBehaviorV2ReformCard"
+    },
+    "/lol-player-level-up/v1": {
+        "/lol-player-level-up/v1/level-up": "LolPlayerLevelUpV1LevelUp",
+        "/lol-player-level-up/v1/level-up-notifications/{pluginName}": "LolPlayerLevelUpV1LevelUpNotificationsByPluginName"
+    },
+    "/lol-player-messaging/v1": {
+        "/lol-player-messaging/v1/celebration/notification": "LolPlayerMessagingV1CelebrationNotification",
+        "/lol-player-messaging/v1/celebration/notification/{id}/acknowledge": "LolPlayerMessagingV1CelebrationNotificationByIdAcknowledge",
+        "/lol-player-messaging/v1/notification": "LolPlayerMessagingV1Notification",
+        "/lol-player-messaging/v1/notification/{id}/acknowledge": "LolPlayerMessagingV1NotificationByIdAcknowledge"
+    },
+    "/lol-player-preferences/v1": {
+        "/lol-player-preferences/v1/hash": "LolPlayerPreferencesV1Hash",
+        "/lol-player-preferences/v1/player-preferences-endpoint-override": "LolPlayerPreferencesV1PlayerPreferencesEndpointOverride",
+        "/lol-player-preferences/v1/player-preferences-ready": "LolPlayerPreferencesV1PlayerPreferencesReady",
+        "/lol-player-preferences/v1/preference": "LolPlayerPreferencesV1Preference",
+        "/lol-player-preferences/v1/preference/{type}": "LolPlayerPreferencesV1PreferenceByType"
+    },
+    "/lol-player-report-sender/v1": {
+        "/lol-player-report-sender/v1/champ-select-reports/puuid/{puuid}/category/{category}": "LolPlayerReportSenderV1ChampSelectReportsPuuidByPuuidCategoryByCategory",
+        "/lol-player-report-sender/v1/end-of-game-reports": "LolPlayerReportSenderV1EndOfGameReports"
+    },
+    "/lol-pre-end-of-game/v1": {
+        "/lol-pre-end-of-game/v1/complete/{sequenceEventName}": "LolPreEndOfGameV1CompleteBySequenceEventName",
+        "/lol-pre-end-of-game/v1/currentSequenceEvent": "LolPreEndOfGameV1CurrentSequenceEvent",
+        "/lol-pre-end-of-game/v1/registration/{sequenceEventName}": "LolPreEndOfGameV1RegistrationBySequenceEventName",
+        "/lol-pre-end-of-game/v1/registration/{sequenceEventName}/{priority}": "LolPreEndOfGameV1RegistrationBySequenceEventNameByPriority"
+    },
+    "/lol-premade-voice/v1": {
+        "/lol-premade-voice/v1/availability": "LolPremadeVoiceV1Availability",
+        "/lol-premade-voice/v1/capturedevices": "LolPremadeVoiceV1Capturedevices",
+        "/lol-premade-voice/v1/first-experience": "LolPremadeVoiceV1FirstExperience",
+        "/lol-premade-voice/v1/first-experience/game": "LolPremadeVoiceV1FirstExperienceGame",
+        "/lol-premade-voice/v1/first-experience/lcu": "LolPremadeVoiceV1FirstExperienceLcu",
+        "/lol-premade-voice/v1/first-experience/reset": "LolPremadeVoiceV1FirstExperienceReset",
+        "/lol-premade-voice/v1/gameClientUpdatedPTTKey": "LolPremadeVoiceV1GameClientUpdatedPTTKey",
+        "/lol-premade-voice/v1/mic-test": "LolPremadeVoiceV1MicTest",
+        "/lol-premade-voice/v1/participant-records": "LolPremadeVoiceV1ParticipantRecords",
+        "/lol-premade-voice/v1/participants": "LolPremadeVoiceV1Participants",
+        "/lol-premade-voice/v1/participants/{puuid}/mute": "LolPremadeVoiceV1ParticipantsByPuuidMute",
+        "/lol-premade-voice/v1/participants/{puuid}/volume": "LolPremadeVoiceV1ParticipantsByPuuidVolume",
+        "/lol-premade-voice/v1/push-to-talk/check-available": "LolPremadeVoiceV1PushToTalkCheckAvailable",
+        "/lol-premade-voice/v1/self/activationSensitivity": "LolPremadeVoiceV1SelfActivationSensitivity",
+        "/lol-premade-voice/v1/self/inputMode": "LolPremadeVoiceV1SelfInputMode",
+        "/lol-premade-voice/v1/self/micLevel": "LolPremadeVoiceV1SelfMicLevel",
+        "/lol-premade-voice/v1/self/mute": "LolPremadeVoiceV1SelfMute",
+        "/lol-premade-voice/v1/session": "LolPremadeVoiceV1Session",
+        "/lol-premade-voice/v1/settings": "LolPremadeVoiceV1Settings",
+        "/lol-premade-voice/v1/settings/reset": "LolPremadeVoiceV1SettingsReset"
+    },
+    "/lol-publishing-content/v1": {
+        "/lol-publishing-content/v1/ready": "LolPublishingContentV1Ready",
+        "/lol-publishing-content/v1/settings": "LolPublishingContentV1Settings",
+        "/lol-publishing-content/v1/listeners/client-data": "LolPublishingContentV1ListenersClientData",
+        "/lol-publishing-content/v1/listeners/pubhub-config": "LolPublishingContentV1ListenersPubhubConfig",
+        "/lol-publishing-content/v1/tft-hub-cards": "LolPublishingContentV1TftHubCards"
+    },
+    "/lol-purchase-widget/v1": {
+        "/lol-purchase-widget/v1/configuration": "LolPurchaseWidgetV1Configuration",
+        "/lol-purchase-widget/v1/order-notifications": "LolPurchaseWidgetV1OrderNotifications",
+        "/lol-purchase-widget/v1/purchasable-item": "LolPurchaseWidgetV1PurchasableItem",
+        "/lol-purchase-widget/v1/purchasable-items/{inventoryType}": "LolPurchaseWidgetV1PurchasableItemsByInventoryType"
+    },
+    "/lol-purchase-widget/v2": {
+        "/lol-purchase-widget/v2/purchaseItems": "LolPurchaseWidgetV2PurchaseItems"
+    },
+    "/lol-purchase-widget/v3": {
+        "/lol-purchase-widget/v3/base-skin-line-data/{offerId}": "LolPurchaseWidgetV3BaseSkinLineDataByOfferId",
+        "/lol-purchase-widget/v3/purchase-offer-order-statuses": "LolPurchaseWidgetV3PurchaseOfferOrderStatuses",
+        "/lol-purchase-widget/v3/purchaseOffer": "LolPurchaseWidgetV3PurchaseOffer",
+        "/lol-purchase-widget/v3/validateOffer": "LolPurchaseWidgetV3ValidateOffer"
+    },
+    "/lol-ranked/v1": {
+        "/lol-ranked/v1/apex-leagues/{queueType}/{tier}": "LolRankedV1ApexLeaguesByQueueTypeByTier",
+        "/lol-ranked/v1/challenger-ladders-enabled": "LolRankedV1ChallengerLaddersEnabled",
+        "/lol-ranked/v1/current-lp-change-notification": "LolRankedV1CurrentLpChangeNotification",
+        "/lol-ranked/v1/current-ranked-stats": "LolRankedV1CurrentRankedStats",
+        "/lol-ranked/v1/eos-notifications": "LolRankedV1EosNotifications",
+        "/lol-ranked/v1/eos-notifications/{id}/acknowledge": "LolRankedV1EosNotificationsByIdAcknowledge",
+        "/lol-ranked/v1/eos-rewards": "LolRankedV1EosRewards",
+        "/lol-ranked/v1/league-ladders/{puuid}": "LolRankedV1LeagueLaddersByPuuid",
+        "/lol-ranked/v1/notifications": "LolRankedV1Notifications",
+        "/lol-ranked/v1/notifications/{id}/acknowledge": "LolRankedV1NotificationsByIdAcknowledge",
+        "/lol-ranked/v1/ranked-stats": "LolRankedV1RankedStats",
+        "/lol-ranked/v1/ranked-stats/{puuid}": "LolRankedV1RankedStatsByPuuid",
+        "/lol-ranked/v1/rated-ladder/{queueType}": "LolRankedV1RatedLadderByQueueType",
+        "/lol-ranked/v1/signed-ranked-stats": "LolRankedV1SignedRankedStats",
+        "/lol-ranked/v1/social-leaderboard-ranked-queue-stats-for-puuids": "LolRankedV1SocialLeaderboardRankedQueueStatsForPuuids",
+        "/lol-ranked/v1/splits-config": "LolRankedV1SplitsConfig",
+        "/lol-ranked/v1/global-notifications": "LolRankedV1GlobalNotifications",
+        "/lol-ranked/v1/top-rated-ladders-enabled": "LolRankedV1TopRatedLaddersEnabled"
+    },
+    "/lol-ranked/v2": {
+        "/lol-ranked/v2/tiers": "LolRankedV2Tiers"
+    },
+    "/lol-regalia/v2": {
+        "/lol-regalia/v2/config": "LolRegaliaV2Config",
+        "/lol-regalia/v2/current-summoner/regalia": "LolRegaliaV2CurrentSummonerRegalia",
+        "/lol-regalia/v2/summoners/{summonerId}/queues/{queue}/positions/{position}/regalia": "LolRegaliaV2SummonersBySummonerIdQueuesByQueuePositionsByPositionRegalia",
+        "/lol-regalia/v2/summoners/{summonerId}/queues/{queue}/regalia": "LolRegaliaV2SummonersBySummonerIdQueuesByQueueRegalia",
+        "/lol-regalia/v2/summoners/{summonerId}/regalia": "LolRegaliaV2SummonersBySummonerIdRegalia",
+        "/lol-regalia/v2/summoners/{summonerId}/regalia/async": "LolRegaliaV2SummonersBySummonerIdRegaliaAsync"
+    },
+    "/lol-replays/v1": {
+        "/lol-replays/v1/configuration": "LolReplaysV1Configuration",
+        "/lol-replays/v1/metadata/{gameId}": "LolReplaysV1MetadataByGameId",
+        "/lol-replays/v1/metadata/{gameId}/create/gameVersion/{gameVersion}/gameType/{gameType}/queueId/{queueId}": "LolReplaysV1MetadataByGameIdCreateGameVersionByGameVersionGameTypeByGameTypeQueueIdByQueueId",
+        "/lol-replays/v1/rofls/path": "LolReplaysV1RoflsPath",
+        "/lol-replays/v1/rofls/path/default": "LolReplaysV1RoflsPathDefault",
+        "/lol-replays/v1/rofls/scan": "LolReplaysV1RoflsScan",
+        "/lol-replays/v1/rofls/{gameId}/download": "LolReplaysV1RoflsByGameIdDownload",
+        "/lol-replays/v1/rofls/{gameId}/download/graceful": "LolReplaysV1RoflsByGameIdDownloadGraceful",
+        "/lol-replays/v1/rofls/{gameId}/watch": "LolReplaysV1RoflsByGameIdWatch"
+    },
+    "/lol-replays/v2": {
+        "/lol-replays/v2/metadata/{gameId}/create": "LolReplaysV2MetadataByGameIdCreate"
+    },
+    "/lol-rewards/v1": {
+        "/lol-rewards/v1/grants": "LolRewardsV1Grants",
+        "/lol-rewards/v1/grants/{grantId}/select": "LolRewardsV1GrantsByGrantIdSelect",
+        "/lol-rewards/v1/grants/{grantId}/view": "PatchLolRewardsV1GrantsByGrantIdView",
+        "/lol-rewards/v1/groups": "LolRewardsV1Groups"
+    },
+    "/lol-rms/v1": {
+        "/lol-rms/v1/champion-mastery-leaveup-update": "LolRmsV1ChampionMasteryLeaveupUpdate",
+        "/lol-rms/v1/champion-mastery-leaveup-update/{id}": "LolRmsV1ChampionMasteryLeaveupUpdateById"
+    },
+    "/lol-rso-auth/configuration": {
+        "/lol-rso-auth/configuration/v3/ready-state": "LolRsoAuthConfigurationV3ReadyState"
+    },
+    "/lol-rso-auth/v1": {
+        "/lol-rso-auth/v1/auth-hints/hint": "LolRsoAuthV1AuthHintsHint",
+        "/lol-rso-auth/v1/authorization": "LolRsoAuthV1Authorization",
+        "/lol-rso-auth/v1/authorization/access-token": "LolRsoAuthV1AuthorizationAccessToken",
+        "/lol-rso-auth/v1/authorization/error": "LolRsoAuthV1AuthorizationError",
+        "/lol-rso-auth/v1/authorization/gas": "LolRsoAuthV1AuthorizationGas",
+        "/lol-rso-auth/v1/authorization/id-token": "LolRsoAuthV1AuthorizationIdToken",
+        "/lol-rso-auth/v1/authorization/refresh": "LolRsoAuthV1AuthorizationRefresh",
+        "/lol-rso-auth/v1/authorization/userinfo": "LolRsoAuthV1AuthorizationUserinfo",
+        "/lol-rso-auth/v1/device-id": "LolRsoAuthV1DeviceId",
+        "/lol-rso-auth/v1/session": "LolRsoAuthV1Session",
+        "/lol-rso-auth/v1/status/{platformId}": "LolRsoAuthV1StatusByPlatformId"
+    },
+    "/lol-rso-auth/v2": {
+        "/lol-rso-auth/v2/config": "LolRsoAuthV2Config"
+    },
+    "/lol-service-status/v1": {
+        "/lol-service-status/v1/lcu-status": "LolServiceStatusV1LcuStatus",
+        "/lol-service-status/v1/ticker-messages": "LolServiceStatusV1TickerMessages"
+    },
+    "/lol-settings/v1": {
+        "/lol-settings/v1/account/didreset": "LolSettingsV1AccountDidreset",
+        "/lol-settings/v1/account/save": "LolSettingsV1AccountSave",
+        "/lol-settings/v1/account/{category}": "LolSettingsV1AccountByCategory",
+        "/lol-settings/v1/local/{category}": "LolSettingsV1LocalByCategory"
+    },
+    "/lol-settings/v2": {
+        "/lol-settings/v2/account/{ppType}/{category}": "LolSettingsV2AccountByPpTypeByCategory",
+        "/lol-settings/v2/didreset/{ppType}": "LolSettingsV2DidresetByPpType",
+        "/lol-settings/v2/local/{category}": "LolSettingsV2LocalByCategory",
+        "/lol-settings/v2/ready": "LolSettingsV2Ready",
+        "/lol-settings/v2/config": "LolSettingsV2Config"
+    },
+    "/lol-shutdown/v1": {
+        "/lol-shutdown/v1/notification": "LolShutdownV1Notification"
+    },
+    "/lol-simple-dialog-messages/v1": {
+        "/lol-simple-dialog-messages/v1/messages": "LolSimpleDialogMessagesV1Messages",
+        "/lol-simple-dialog-messages/v1/messages/{messageId}": "LolSimpleDialogMessagesV1MessagesByMessageId"
+    },
+    "/lol-social-leaderboard/v1": {
+        "/lol-social-leaderboard/v1/leaderboard-next-update-time": "LolSocialLeaderboardV1LeaderboardNextUpdateTime",
+        "/lol-social-leaderboard/v1/social-leaderboard-data": "LolSocialLeaderboardV1SocialLeaderboardData"
+    },
+    "/lol-spectator/v1": {
+        "/lol-spectator/v1/buddy/spectate": "LolSpectatorV1BuddySpectate",
+        "/lol-spectator/v1/spectate": "LolSpectatorV1Spectate",
+        "/lol-spectator/v1/spectate/launch": "LolSpectatorV1SpectateLaunch"
+    },
+    "/lol-statstones/v1": {
+        "/lol-statstones/v1/eog-notifications": "LolStatstonesV1EogNotifications",
+        "/lol-statstones/v1/eog-notifications/{key}": "LolStatstonesV1EogNotificationsByKey",
+        "/lol-statstones/v1/featured-champion-statstones/{championItemId}": "LolStatstonesV1FeaturedChampionStatstonesByChampionItemId",
+        "/lol-statstones/v1/featured-champion-statstones/{championItemId}/{statstoneId}": "LolStatstonesV1FeaturedChampionStatstonesByChampionItemIdByStatstoneId",
+        "/lol-statstones/v1/profile-summary/{puuid}": "LolStatstonesV1ProfileSummaryByPuuid",
+        "/lol-statstones/v1/statstone/{contentId}/owned": "LolStatstonesV1StatstoneByContentIdOwned",
+        "/lol-statstones/v1/statstones-enabled-queue-ids": "LolStatstonesV1StatstonesEnabledQueueIds",
+        "/lol-statstones/v1/vignette-notifications": "LolStatstonesV1VignetteNotifications",
+        "/lol-statstones/v1/vignette-notifications/{key}": "LolStatstonesV1VignetteNotificationsByKey"
+    },
+    "/lol-statstones/v2": {
+        "/lol-statstones/v2/player-statstones-self/{championItemId}": "LolStatstonesV2PlayerStatstonesSelfByChampionItemId",
+        "/lol-statstones/v2/player-summary-self": "LolStatstonesV2PlayerSummarySelf"
+    },
+    "/lol-store/v1": {
+        "/lol-store/v1/catalog": "LolStoreV1Catalog",
+        "/lol-store/v1/catalog/sales": "LolStoreV1CatalogSales",
+        "/lol-store/v1/catalog/{inventoryType}": "LolStoreV1CatalogByInventoryType",
+        "/lol-store/v1/catalogByInstanceIds": "LolStoreV1CatalogByInstanceIds",
+        "/lol-store/v1/getStoreUrl": "LolStoreV1GetStoreUrl",
+        "/lol-store/v1/giftablefriends": "LolStoreV1Giftablefriends",
+        "/lol-store/v1/itemKeysFromInstanceIds": "LolStoreV1ItemKeysFromInstanceIds",
+        "/lol-store/v1/itemKeysFromOfferIds": "LolStoreV1ItemKeysFromOfferIds",
+        "/lol-store/v1/lastPage": "LolStoreV1LastPage",
+        "/lol-store/v1/notifications/acknowledge": "LolStoreV1NotificationsAcknowledge",
+        "/lol-store/v1/offers": "LolStoreV1Offers",
+        "/lol-store/v1/order-notifications": "LolStoreV1OrderNotifications",
+        "/lol-store/v1/order-notifications/{id}": "LolStoreV1OrderNotificationsById",
+        "/lol-store/v1/paymentDetails": "LolStoreV1PaymentDetails",
+        "/lol-store/v1/skins/{skinId}": "LolStoreV1SkinsBySkinId",
+        "/lol-store/v1/skins/{skinId}/purchase": "LolStoreV1SkinsBySkinIdPurchase",
+        "/lol-store/v1/status": "LolStoreV1Status",
+        "/lol-store/v1/store-ready": "LolStoreV1StoreReady",
+        "/lol-store/v1/wallet": "LolStoreV1Wallet",
+        "/lol-store/v1/{pageType}": "LolStoreV1ByPageType"
+    },
+    "/lol-suggested-players/v1": {
+        "/lol-suggested-players/v1/reported-player": "LolSuggestedPlayersV1ReportedPlayer",
+        "/lol-suggested-players/v1/suggested-players": "LolSuggestedPlayersV1SuggestedPlayers",
+        "/lol-suggested-players/v1/suggested-players/{summonerId}": "LolSuggestedPlayersV1SuggestedPlayersBySummonerId",
+        "/lol-suggested-players/v1/victorious-comrade": "LolSuggestedPlayersV1VictoriousComrade"
+    },
+    "/lol-summoner/v1": {
+        "/lol-summoner/v1/check-name-availability-new-summoners/{name}": "LolSummonerV1CheckNameAvailabilityNewSummonersByName",
+        "/lol-summoner/v1/check-name-availability/{name}": "LolSummonerV1CheckNameAvailabilityByName",
+        "/lol-summoner/v1/current-summoner": "LolSummonerV1CurrentSummoner",
+        "/lol-summoner/v1/current-summoner/account-and-summoner-ids": "LolSummonerV1CurrentSummonerAccountAndSummonerIds",
+        "/lol-summoner/v1/current-summoner/autofill": "LolSummonerV1CurrentSummonerAutofill",
+        "/lol-summoner/v1/current-summoner/icon": "LolSummonerV1CurrentSummonerIcon",
+        "/lol-summoner/v1/current-summoner/jwt": "LolSummonerV1CurrentSummonerJwt",
+        "/lol-summoner/v1/current-summoner/name": "LolSummonerV1CurrentSummonerName",
+        "/lol-summoner/v1/current-summoner/profile-privacy": "LolSummonerV1CurrentSummonerProfilePrivacy",
+        "/lol-summoner/v1/current-summoner/rerollPoints": "LolSummonerV1CurrentSummonerRerollPoints",
+        "/lol-summoner/v1/current-summoner/summoner-profile": "LolSummonerV1CurrentSummonerSummonerProfile",
+        "/lol-summoner/v1/profile-privacy-enabled": "LolSummonerV1ProfilePrivacyEnabled",
+        "/lol-summoner/v1/status": "LolSummonerV1Status",
+        "/lol-summoner/v1/summoner-profile": "LolSummonerV1SummonerProfile",
+        "/lol-summoner/v1/summoner-requests-ready": "LolSummonerV1SummonerRequestsReady",
+        "/lol-summoner/v1/summoners": "LolSummonerV1Summoners",
+        "/lol-summoner/v1/summoners-by-puuid-cached/{puuid}": "LolSummonerV1SummonersByPuuidCachedByPuuid",
+        "/lol-summoner/v1/summoners/{id}": "LolSummonerV1SummonersById"
+    },
+    "/lol-summoner/v2": {
+        "/lol-summoner/v2/summoner-icons": "LolSummonerV2SummonerIcons",
+        "/lol-summoner/v2/summoner-names": "LolSummonerV2SummonerNames",
+        "/lol-summoner/v2/summoners": "LolSummonerV2Summoners",
+        "/lol-summoner/v2/summoners/names": "LolSummonerV2SummonersNames",
+        "/lol-summoner/v2/summoners/puuid": "LolSummonerV2SummonersPuuid",
+        "/lol-summoner/v2/summoners/puuid/{puuid}": "LolSummonerV2SummonersPuuidByPuuid"
+    },
+    "/lol-tastes/v1": {
+        "/lol-tastes/v1/ready": "LolTastesV1Ready",
+        "/lol-tastes/v1/skins-model": "LolTastesV1SkinsModel"
+    },
+    "/lol-tft/v1": {
+        "/lol-tft/v1/tft/hubFooterColors": "LolTftV1TftHubFooterColors",
+        "/lol-tft/v1/tft/storePromos": "LolTftV1TftStorePromos",
+        "/lol-tft/v1/tft/events": "LolTftV1TftEvents"
+    },
+    "/lol-tft/v2": {
+        "/lol-tft/v2/tft/battlepass": "LolTftV2TftBattlepass"
+    },
+    "/lol-token-upsell/v1": {
+        "/lol-token-upsell/v1/all": "LolTokenUpsellV1All"
+    },
+    "/lol-trophies/v1": {
+        "/lol-trophies/v1/current-summoner/trophies/profile": "LolTrophiesV1CurrentSummonerTrophiesProfile",
+        "/lol-trophies/v1/players/{puuid}/trophies/profile": "LolTrophiesV1PlayersByPuuidTrophiesProfile"
+    },
+    "/memory/v1": {
+        "/memory/v1/fe-processes-ready": "MemoryV1FeProcessesReady",
+        "/memory/v1/notify-fe-processes-ready": "MemoryV1NotifyFeProcessesReady",
+        "/memory/v1/snapshot": "MemoryV1Snapshot"
+    },
+    "/patcher/v1": {
+        "/patcher/v1/notifications": "PatcherV1Notifications",
+        "/patcher/v1/notifications/{id}": "PatcherV1NotificationsById",
+        "/patcher/v1/p2p/status": "PatcherV1P2pStatus",
+        "/patcher/v1/products": "PatcherV1Products",
+        "/patcher/v1/products/league_of_legends/full-repair-request": "PatcherV1ProductsLeagueOfLegendsFullRepairRequest",
+        "/patcher/v1/products/{product-id}": "PatcherV1ProductsByProductId",
+        "/patcher/v1/products/{product-id}/detect-corruption-request": "PatcherV1ProductsByProductIdDetectCorruptionRequest",
+        "/patcher/v1/products/{product-id}/partial-repair-request": "PatcherV1ProductsByProductIdPartialRepairRequest",
+        "/patcher/v1/products/{product-id}/paths": "PatcherV1ProductsByProductIdPaths",
+        "/patcher/v1/products/{product-id}/signal-start-patching-delayed": "PatcherV1ProductsByProductIdSignalStartPatchingDelayed",
+        "/patcher/v1/products/{product-id}/start-checking-request": "PatcherV1ProductsByProductIdStartCheckingRequest",
+        "/patcher/v1/products/{product-id}/start-patching-request": "PatcherV1ProductsByProductIdStartPatchingRequest",
+        "/patcher/v1/products/{product-id}/state": "PatcherV1ProductsByProductIdState",
+        "/patcher/v1/products/{product-id}/stop-checking-request": "PatcherV1ProductsByProductIdStopCheckingRequest",
+        "/patcher/v1/products/{product-id}/stop-patching-request": "PatcherV1ProductsByProductIdStopPatchingRequest",
+        "/patcher/v1/products/{product-id}/tags": "PatcherV1ProductsByProductIdTags",
+        "/patcher/v1/self-update-restart": "PatcherV1SelfUpdateRestart",
+        "/patcher/v1/status": "PatcherV1Status",
+        "/patcher/v1/ux": "PatcherV1Ux"
+    },
+    "/payments/v1": {
+        "/payments/v1/pmc-start-url": "PaymentsV1PmcStartUrl"
+    },
+    "/performance/v1": {
+        "/performance/v1/memory": "PerformanceV1Memory",
+        "/performance/v1/process/{processId}": "PerformanceV1ProcessByProcessId",
+        "/performance/v1/report": "PerformanceV1Report",
+        "/performance/v1/report/restart": "PerformanceV1ReportRestart",
+        "/performance/v1/system-info": "PerformanceV1SystemInfo"
+    },
+    "/player-notifications/v1": {
+        "/player-notifications/v1/config": "PlayerNotificationsV1Config",
+        "/player-notifications/v1/notifications": "PlayerNotificationsV1Notifications",
+        "/player-notifications/v1/notifications/{id}": "PlayerNotificationsV1NotificationsById"
+    },
+    "/plugin-manager/v1": {
+        "/plugin-manager/v1/external-plugins/availability": "PluginManagerV1ExternalPluginsAvailability",
+        "/plugin-manager/v1/status": "PluginManagerV1Status"
+    },
+    "/plugin-manager/v2": {
+        "/plugin-manager/v2/descriptions": "PluginManagerV2Descriptions",
+        "/plugin-manager/v2/descriptions/{plugin}": "PluginManagerV2DescriptionsByPlugin",
+        "/plugin-manager/v2/plugins": "PluginManagerV2Plugins",
+        "/plugin-manager/v2/plugins/{plugin}": "PluginManagerV2PluginsByPlugin"
+    },
+    "/plugin-manager/v3": {
+        "/plugin-manager/v3/plugins-manifest": "PluginManagerV3PluginsManifest"
+    },
+    "/process-control/v1": {
+        "/process-control/v1/process": "ProcessControlV1Process",
+        "/process-control/v1/process/quit": "ProcessControlV1ProcessQuit",
+        "/process-control/v1/process/restart": "ProcessControlV1ProcessRestart",
+        "/process-control/v1/process/restart-to-repair": "ProcessControlV1ProcessRestartToRepair"
+    },
+    "/riot-messaging-service/v1": {
+        "/riot-messaging-service/v1/connect": "RiotMessagingServiceV1Connect",
+        "/riot-messaging-service/v1/entitlements": "RiotMessagingServiceV1Entitlements",
+        "/riot-messaging-service/v1/message/{a}": "RiotMessagingServiceV1MessageByA",
+        "/riot-messaging-service/v1/message/{a}/{b}": "RiotMessagingServiceV1MessageByAByB",
+        "/riot-messaging-service/v1/message/{a}/{b}/{c}": "RiotMessagingServiceV1MessageByAByBByC",
+        "/riot-messaging-service/v1/message/{a}/{b}/{c}/{d}": "RiotMessagingServiceV1MessageByAByBByCByD",
+        "/riot-messaging-service/v1/message/{a}/{b}/{c}/{d}/{e}": "RiotMessagingServiceV1MessageByAByBByCByDByE",
+        "/riot-messaging-service/v1/message/{a}/{b}/{c}/{d}/{e}/{f}": "RiotMessagingServiceV1MessageByAByBByCByDByEByF",
+        "/riot-messaging-service/v1/session": "RiotMessagingServiceV1Session",
+        "/riot-messaging-service/v1/state": "RiotMessagingServiceV1State"
+    },
+    "/riotclient/addorupdatemetric": {
+        "/riotclient/addorupdatemetric": "RiotclientAddorupdatemetric"
+    },
+    "/riotclient/affinity": {
+        "/riotclient/affinity": "RiotclientAffinity"
+    },
+    "/riotclient/app-name": {
+        "/riotclient/app-name": "RiotclientAppName"
+    },
+    "/riotclient/app-port": {
+        "/riotclient/app-port": "RiotclientAppPort"
+    },
+    "/riotclient/auth-token": {
+        "/riotclient/auth-token": "RiotclientAuthToken"
+    },
+    "/riotclient/command-line-args": {
+        "/riotclient/command-line-args": "RiotclientCommandLineArgs"
+    },
+    "/riotclient/pre-shutdown": {
+        "/riotclient/pre-shutdown/begin": "RiotclientPreShutDownBegin"
+    },
+    "/riotclient/get_region_locale": {
+        "/riotclient/get_region_locale": "RiotclientGetRegionLocale"
+    },
+    "/riotclient/kill-and-restart-ux": {
+        "/riotclient/kill-and-restart-ux": "RiotclientKillAndRestartUx"
+    },
+    "/riotclient/kill-ux": {
+        "/riotclient/kill-ux": "RiotclientKillUx"
+    },
+    "/riotclient/launch-ux": {
+        "/riotclient/launch-ux": "RiotclientLaunchUx"
+    },
+    "/riotclient/machine-id": {
+        "/riotclient/machine-id": "RiotclientMachineId"
+    },
+    "/riotclient/new-args": {
+        "/riotclient/new-args": "RiotclientNewArgs"
+    },
+    "/riotclient/region-locale": {
+        "/riotclient/region-locale": "RiotclientRegionLocale",
+        "/riotclient/region-locale/ack": "RiotclientRegionLocaleAck"
+    },
+    "/riotclient/set_region_locale": {
+        "/riotclient/set_region_locale": "RiotclientSetRegionLocale"
+    },
+    "/riotclient/show-swagger": {
+        "/riotclient/show-swagger": "RiotclientShowSwagger"
+    },
+    "/riotclient/splash": {
+        "/riotclient/splash": "RiotclientSplash"
+    },
+    "/riotclient/system-info": {
+        "/riotclient/system-info/v1/basic-info": "RiotclientSystemInfoV1BasicInfo"
+    },
+    "/riotclient/trace": {
+        "/riotclient/trace": "RiotclientTrace"
+    },
+    "/riotclient/unload": {
+        "/riotclient/unload": "RiotclientUnload"
+    },
+    "/riotclient/ux-allow-foreground": {
+        "/riotclient/ux-allow-foreground": "RiotclientUxAllowForeground"
+    },
+    "/riotclient/ux-crash-count": {
+        "/riotclient/ux-crash-count": "RiotclientUxCrashCount"
+    },
+    "/riotclient/ux-flash": {
+        "/riotclient/ux-flash": "RiotclientUxFlash"
+    },
+    "/riotclient/ux-load-complete": {
+        "/riotclient/ux-load-complete": "RiotclientUxLoadComplete"
+    },
+    "/riotclient/ux-minimize": {
+        "/riotclient/ux-minimize": "RiotclientUxMinimize"
+    },
+    "/riotclient/ux-show": {
+        "/riotclient/ux-show": "RiotclientUxShow"
+    },
+    "/riotclient/ux-state": {
+        "/riotclient/ux-state": "RiotclientUxState",
+        "/riotclient/ux-state/ack": "RiotclientUxStateAck",
+        "/riotclient/ux-state/request": "RiotclientUxStateRequest"
+    },
+    "/riotclient/v1": {
+        "/riotclient/v1/auth-tokens/{authToken}": "RiotclientV1AuthTokensByAuthToken",
+        "/riotclient/v1/crash-reporting/environment": "RiotclientV1CrashReportingEnvironment",
+        "/riotclient/v1/crash-reporting/logs": "RiotclientV1CrashReportingLogs",
+        "/riotclient/v1/elevation-requests": "RiotclientV1ElevationRequests",
+        "/riotclient/v1/self-update-info": "RiotclientV1SelfUpdateInfo"
+    },
+    "/riotclient/zoom-scale": {
+        "/riotclient/zoom-scale": "RiotclientZoomScale"
+    },
+    "/sanitizer/v1": {
+        "/sanitizer/v1/containsSanitized": "SanitizerV1ContainsSanitized",
+        "/sanitizer/v1/sanitize": "SanitizerV1Sanitize",
+        "/sanitizer/v1/status": "SanitizerV1Status"
+    },
+    "/swagger/v1": {
+        "/swagger/v1/api-docs": "HttpApiDocsV1",
+        "/swagger/v1/api-docs/{api}": "HttpApiDeclarationV1"
+    },
+    "/swagger/v2": {
+        "/swagger/v2/swagger.json": "HttpApiDocsV2"
+    },
+    "/swagger/v3": {
+        "/swagger/v3/openapi.json": "HttpApiDocsV3"
+    },
+    "/system/v1": {
+        "/system/v1/builds": "SystemV1Builds"
+    },
+    "/telemetry/v1": {
+        "/telemetry/v1/application-start-time": "TelemetryV1ApplicationStartTime",
+        "/telemetry/v1/common-data/{key}": "TelemetryV1CommonDataByKey",
+        "/telemetry/v1/events-once/{eventType}": "TelemetryV1EventsOnceByEventType",
+        "/telemetry/v1/events-with-perf-info/{eventType}": "TelemetryV1EventsWithPerfInfoByEventType",
+        "/telemetry/v1/events/{eventType}": "TelemetryV1EventsByEventType"
+    },
+    "/telemetry/v3": {
+        "/telemetry/v3/events-once/{eventType}": "TelemetryV3EventsOnceByEventType",
+        "/telemetry/v3/events/{eventType}": "TelemetryV3EventsByEventType"
+    },
+    "/tracing/v1": {
+        "/tracing/v1/performance/{name}": "TracingV1PerformanceByName",
+        "/tracing/v1/trace/event": "TracingV1TraceEvent",
+        "/tracing/v1/trace/module": "TracingV1TraceModule",
+        "/tracing/v1/trace/non-timing-event/{eventName}": "TracingV1TraceNonTimingEventByEventName",
+        "/tracing/v1/trace/phase/begin": "TracingV1TracePhaseBegin",
+        "/tracing/v1/trace/phase/end": "TracingV1TracePhaseEnd",
+        "/tracing/v1/trace/step-event": "TracingV1TraceStepEvent",
+        "/tracing/v1/trace/time-series-event/{eventName}": "TracingV1TraceTimeSeriesEventByEventName",
+        "/tracing/v1/trace/time-series-event/{eventName}/marker/{markerName}": "TracingV1TraceTimeSeriesEventByEventNameMarkerByMarkerName"
+    },
+    "/voice-chat/v1": {
+        "/voice-chat/v1/audio-properties": "VoiceChatV1AudioProperties",
+        "/voice-chat/v1/call-stats/aggregate": "VoiceChatV1CallStatsAggregate",
+        "/voice-chat/v1/call-stats/{id}": "VoiceChatV1CallStatsById",
+        "/voice-chat/v1/codec-settings": "VoiceChatV1CodecSettings",
+        "/voice-chat/v1/config": "VoiceChatV1Config",
+        "/voice-chat/v1/errors": "VoiceChatV1Errors",
+        "/voice-chat/v1/push-to-talk": "VoiceChatV1PushToTalk",
+        "/voice-chat/v1/push-to-talk/check-available": "VoiceChatV1PushToTalkCheckAvailable"
+    },
+    "/voice-chat/v2": {
+        "/voice-chat/v2/devices/capture": "VoiceChatV2DevicesCapture",
+        "/voice-chat/v2/devices/capture/permission": "VoiceChatV2DevicesCapturePermission",
+        "/voice-chat/v2/devices/capture/prompt-for-permission": "VoiceChatV2DevicesCapturePromptForPermission",
+        "/voice-chat/v2/devices/render": "VoiceChatV2DevicesRender",
+        "/voice-chat/v2/sessions": "VoiceChatV2Sessions",
+        "/voice-chat/v2/sessions/{id}": "VoiceChatV2SessionsById",
+        "/voice-chat/v2/sessions/{sessionId}/participants/{participantId}": "VoiceChatV2SessionsBySessionIdParticipantsByParticipantId",
+        "/voice-chat/v2/settings": "VoiceChatV2Settings",
+        "/voice-chat/v2/state": "VoiceChatV2State"
+    },
+    "/{plugin}/assets": {
+        "/{plugin}/assets/{path}": "ByPluginAssetsByPath"
+    }
+}
